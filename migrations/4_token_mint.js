@@ -3,7 +3,7 @@ const FlashTetherTRC20 = artifacts.require("FlashTetherTRC20");
 
 module.exports = async function (deployer, network, accounts) {
   try {
-    const deployerAddress = process.env.DEPLOYER_ADDRESS || accounts[0];
+    const deployerAddress = process.env.ADDRESS || accounts[0];
     const token = await FlashTetherTRC20.deployed();
 
     const amount = 1_000_000_000; // 1 billion tokens, contract handles decimals

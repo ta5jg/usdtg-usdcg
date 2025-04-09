@@ -1,23 +1,31 @@
+const TronWeb = require("tronweb");
 require("dotenv").config();
+
 const FlashTetherTRC20 = artifacts.require("FlashTetherTRC20");
 
-module.exports = async function (deployer, network, accounts) {
-  const name = "Flash Tether TRC20";
+function safeHex(label, value) {
+  try {
+    const hex = TronWeb.address.toHex(value.trim());
+    console.log(`✅ ${label} → ${hex}`);
+    return hex;
+  } catch (err) {
+    console.error(`❌ ${label} ERROR → ${value}`);
+    console.error("↪", err.message);
+    process.exit(1); // Anında çık
+  }
+}
+
+module.exports = async function (deployer) {
+  const name = "USDTz";
   const symbol = "USDTz";
 
-  const TronWeb = require("tronweb");
-  const tronWeb = new TronWeb({
-    fullHost: network === 'shasta' ? 'https://api.shasta.trongrid.io' : 'https://api.trongrid.io'
-  });
+  const feeWallet = safeHex("FEE_WALLET", process.env.FEE_WALLET);
+  const usdtAddress = safeHex("USDT_ADDR", process.env.USDT_ADDR);
+  const usdcAddress = safeHex("USDC_ADDR", process.env.USDC_ADDR);
+  const oracleAddress = safeHex("ORACLE_ADDR", process.env.ORACLE_ADDR);
 
-  const feeWalletBase58 = "TDhqMjTnDAUxYraTVLLie9Qd8NDGY91idq";
-  const feeWallet = feeWalletBase58.length === 34 ? tronWeb.address.toHex(feeWalletBase58) : feeWalletBase58;
-  const usdtAddress = "41a614f803b6fd780986a42c78ec9c7f77e6ded13c";
-  const usdcBase58 = "TEkxiTehnzSmSe2XqrBj4w32RUN966rdz8";
-  const usdcAddress = tronWeb.address.toHex(usdcBase58);
-  
-  const priceFeed = process.env.FEED_ADDRESS;
-  const priceFeedHex = priceFeed.length === 34 ? tronWeb.address.toHex(priceFeed) : priceFeed;
+  console.log("🚀 Deploying FlashTetherTRC20 with:");
+  console.log({ feeWallet, usdtAddress, usdcAddress, oracleAddress });
 
   await deployer.deploy(
     FlashTetherTRC20,
@@ -26,6 +34,6 @@ module.exports = async function (deployer, network, accounts) {
     feeWallet,
     usdtAddress,
     usdcAddress,
-    priceFeedHex
+    oracleAddress
   );
 };

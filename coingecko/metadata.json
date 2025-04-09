@@ -1,0 +1,10 @@
+{
+    "name": "USDTz",
+    "symbol": "USDTZ",
+    "type": "TRC20",
+    "contract_address": "THGmvAyaTrPaEuEkRcmetCCGqDzKfz267D",
+    "decimals": 6,
+    "website": "https://usdtz.app",
+    "description": "USDTz is a TRC-20 stablecoin pegged to the US Dollar, deployed on the Tron blockchain.",
+    "logo": "https://usdtz.app/logo.png"
+  }

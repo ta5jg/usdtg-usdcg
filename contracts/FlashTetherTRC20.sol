@@ -6,18 +6,18 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/security/Pausable.sol";
 import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
-import "contracts/interfaces/AggregatorV3Interface.sol";
+import "./interfaces/IJustMoneyRouter.sol";
 
 contract FlashTetherTRC20 is ERC20, Ownable, Pausable, ReentrancyGuard {
     uint8 private _decimals = 6;
-    uint256 public maxSupply = 50_000_000_000 * (10 ** _decimals);
-    bool public maxSupplyFrozen = false;
+    uint256 public maxSupply = 100_000_000_000 * (10 ** 6);
+    bool public maxSupplyFrozen = true;
 
     address public feeWallet;
     address public treasuryWallet;
     address public usdtAddress;
     address public usdcAddress;
-    AggregatorV3Interface public priceFeed;
+    IJustMoneyRouter public justMoneyRouter;
 
     uint256 public fixedUSDPrice = 1e8;
 
@@ -27,13 +27,13 @@ contract FlashTetherTRC20 is ERC20, Ownable, Pausable, ReentrancyGuard {
         address _feeWallet,
         address _usdtAddress,
         address _usdcAddress,
-        address _priceFeed
+        address _router
     ) ERC20(name_, symbol_) Ownable() {
         feeWallet = _feeWallet;
         treasuryWallet = msg.sender;
         usdtAddress = _usdtAddress;
         usdcAddress = _usdcAddress;
-        priceFeed = AggregatorV3Interface(_priceFeed);
+        justMoneyRouter = IJustMoneyRouter(_router);
     }
 
     function decimals() public view virtual override returns (uint8) {
@@ -50,15 +50,19 @@ contract FlashTetherTRC20 is ERC20, Ownable, Pausable, ReentrancyGuard {
         return (fixedUSDPrice * tokenAmount) / (10 ** _decimals);
     }
 
-    function getLatestPrice() public view returns (int256) {
-        (, int256 price,,,) = priceFeed.latestRoundData();
-        return price;
+    function getLatestPrice() public view returns (uint256) {
+        address[] memory path = new address[](2);
+        path[0] = address(this); // USDCg or USDTg
+        path[1] = usdtAddress;
+
+        uint256 amountIn = 1 * (10 ** _decimals);
+        uint256[] memory amountsOut = justMoneyRouter.getAmountsOut(amountIn, path);
+        return amountsOut[1];
     }
 
     function liveUSDValue(uint256 tokenAmount) public view returns (uint256) {
-        int256 price = getLatestPrice();
-        require(price > 0, "Invalid price");
-        return (uint256(price) * tokenAmount) / (10 ** _decimals);
+        uint256 price = getLatestPrice();
+        return (price * tokenAmount) / (10 ** _decimals);
     }
 
     function setFixedUSDPrice(uint256 newPrice) external onlyOwner {
@@ -73,6 +77,7 @@ contract FlashTetherTRC20 is ERC20, Ownable, Pausable, ReentrancyGuard {
     }
 
     function freezeMaxSupply() external onlyOwner {
+        require(!maxSupplyFrozen, "Already frozen");
         maxSupplyFrozen = true;
     }
 

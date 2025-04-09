@@ -17,5 +17,18 @@ module.exports = {
       fullHost: "https://api.shasta.trongrid.io",
       network_id: "*"
     },
-  }
+  },
+
+  compilers: {
+    solc: {
+      version: "0.8.20",
+      settings: {
+        optimizer: {
+          enabled: true,
+          runs: 200
+        }
+      }
+    }
+  },
+
 };
