@@ -1,0 +1,10 @@
+{
+  "name": "Flash Tether TRC20",
+  "symbol": "USDTz",
+  "type": "trc20",
+  "decimals": 6,
+  "address": "TDhqMjTnDAUxYraTVLLie9Qd8NDGY91idq",
+  "website": "https://usdtz.vercel.app",
+  "description": "A transparent, fair USD token for the TRON ecosystem.",
+  "logoURI": "https://raw.githubusercontent.com/ta5jg/usdtz/main/logo.png"
+}
