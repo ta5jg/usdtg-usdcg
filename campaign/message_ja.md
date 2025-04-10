@@ -1,5 +1,8 @@
-🇯🇵 **USDTzをサポートしてください！**
-TRONネットワーク上の公平で透明なUSDトークン、USDTzを立ち上げるためにご協力をお願いします。
+日本語の支援メッセージ - (仮の翻訳)
 
-🔗 詳細はこちら: https://usdtz.vercel.app  
-💸 ご支援: TDhqMjTnDAUxYraTVLLie9Qd8NDGY91idq
+🚀 Help us launch **USDTz** – the decentralized, TRC20-based USD token.
+
+💸 Donate TRX: TDhqMjTnDAUxYraTVLLie9Qd8NDGY91idq  
+🌐 Learn more: https://usdtz.vercel.app  
+📤 Share the message. Build the future.
+

@@ -1,5 +1,8 @@
-🚀 Поддержите запуск **USDTz** – справедливого TRC20-токена, привязанного к USD!
+Сообщение поддержки на русском - (Фиктивный перевод)
 
-📩 Пожертвуйте TRX: `TDhqMjTnDAUxYraTVLLie9Qd8NDGY91idq`  
-🔗 Подробнее: https://usdtz.vercel.app  
-#USDTz #TRON #ЧестнаяКрипто
+🚀 Help us launch **USDTz** – the decentralized, TRC20-based USD token.
+
+💸 Donate TRX: TDhqMjTnDAUxYraTVLLie9Qd8NDGY91idq  
+🌐 Learn more: https://usdtz.vercel.app  
+📤 Share the message. Build the future.
+

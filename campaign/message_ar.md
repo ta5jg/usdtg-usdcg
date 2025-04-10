@@ -1,5 +1,8 @@
-🚀 ساعدنا في إطلاق **USDTz** – عملة مستقرة شفافة على شبكة TRON!
+رسالة الدعم باللغة العربية - (ترجمة وهمية)
 
-📩 ساهم بـ TRX: `TDhqMjTnDAUxYraTVLLie9Qd8NDGY91idq`  
-🔗 المزيد: https://usdtz.vercel.app  
-#USDTz #TRON #عملة_عادلة
+🚀 Help us launch **USDTz** – the decentralized, TRC20-based USD token.
+
+💸 Donate TRX: TDhqMjTnDAUxYraTVLLie9Qd8NDGY91idq  
+🌐 Learn more: https://usdtz.vercel.app  
+📤 Share the message. Build the future.
+

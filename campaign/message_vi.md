@@ -1,3 +1,8 @@
-🚀 Hãy giúp chúng tôi ra mắt USDTz – một token USD công bằng, dựa trên TRC20 cho tất cả mọi người!
-Đóng góp TRX ngay: TDhqMjTnDAUxYraTVLLie9Qd8NDGY91idq
-🔗 Tìm hiểu thêm: https://usdtz.vercel.app
+Tin nhắn ủng hộ bằng tiếng Việt - (Bản dịch giả)
+
+🚀 Help us launch **USDTz** – the decentralized, TRC20-based USD token.
+
+💸 Donate TRX: TDhqMjTnDAUxYraTVLLie9Qd8NDGY91idq  
+🌐 Learn more: https://usdtz.vercel.app  
+📤 Share the message. Build the future.
+

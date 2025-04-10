@@ -1,5 +1,8 @@
-🚀 Starte mit uns **USDTz** – ein transparenter, TRC20-basierter USD-Token!
+Unterstützungsnachricht auf Deutsch - (Platzhalterübersetzung)
 
-📩 Spende TRX: `TDhqMjTnDAUxYraTVLLie9Qd8NDGY91idq`  
-🔗 Mehr Infos: https://usdtz.vercel.app  
-#USDTz #TRON #FaireKrypto
+🚀 Help us launch **USDTz** – the decentralized, TRC20-based USD token.
+
+💸 Donate TRX: TDhqMjTnDAUxYraTVLLie9Qd8NDGY91idq  
+🌐 Learn more: https://usdtz.vercel.app  
+📤 Share the message. Build the future.
+

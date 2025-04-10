@@ -1,3 +1,8 @@
-🚀 Bantu kami meluncurkan USDTz – token USD berbasis TRC20 yang adil untuk semua!
-Donasikan TRX sekarang: TDhqMjTnDAUxYraTVLLie9Qd8NDGY91idq
-🔗 Info lebih lanjut: https://usdtz.vercel.app
+Pesan dukungan dalam Bahasa Indonesia - (Terjemahan buatan)
+
+🚀 Help us launch **USDTz** – the decentralized, TRC20-based USD token.
+
+💸 Donate TRX: TDhqMjTnDAUxYraTVLLie9Qd8NDGY91idq  
+🌐 Learn more: https://usdtz.vercel.app  
+📤 Share the message. Build the future.
+

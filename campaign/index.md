@@ -1,21 +1,8 @@
-# Support USDTz
+# Support USDTz 🇹🇷🚀
 
-**USDTz** is a new community-driven USD-pegged TRC20 token on the TRON network.
+**USDTz** is a decentralized USD-pegged token built on TRON (TRC20) for fairness, transparency and accessibility.
 
-✅ Transparent  
-✅ Fair  
-✅ No centralized control
+💡 Help us launch a trusted, open USD value token for the TRON ecosystem.
 
-Help us deploy to TRON Mainnet and bring this project to life.
-
-**Donation Address (TRX):**  
-`TDhqMjTnDAUxYraTVLLie9Qd8NDGY91idq`
-
-**Website:** [usdtz.vercel.app](https://usdtz.vercel.app)
-
----
-
-## What is USDTz?
-
-USDTz is a decentralized, fair-launch stablecoin built to strengthen the TRON DeFi ecosystem. Anyone can contribute to support its launch, and everyone benefits from full transparency.
-
+📌 Website: [https://usdtz.vercel.app](https://usdtz.vercel.app)  
+📌 Donate TRX to: `TDhqMjTnDAUxYraTVLLie9Qd8NDGY91idq`

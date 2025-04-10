@@ -1,4 +1,4 @@
-Mensaje de apoyo en español - (Traducción simulada)
+Steunbericht in het Nederlands - (Fictieve vertaling)
 
 🚀 Help us launch **USDTz** – the decentralized, TRC20-based USD token.
 

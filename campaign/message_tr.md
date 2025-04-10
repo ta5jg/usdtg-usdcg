@@ -1,5 +1,8 @@
-🚀 **USDTz**'yi birlikte başlatalım – Şeffaf, TRC20 tabanlı bir USD token!
+Türkçe destek mesajı - (Yapay çeviri)
 
-📩 TRX ile katkıda bulun: `TDhqMjTnDAUxYraTVLLie9Qd8NDGY91idq`  
-🔗 Daha fazla bilgi: https://usdtz.vercel.app  
-#USDTz #TRON #AdilKripto
+🚀 Help us launch **USDTz** – the decentralized, TRC20-based USD token.
+
+💸 Donate TRX: TDhqMjTnDAUxYraTVLLie9Qd8NDGY91idq  
+🌐 Learn more: https://usdtz.vercel.app  
+📤 Share the message. Build the future.
+
