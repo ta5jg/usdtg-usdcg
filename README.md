@@ -114,3 +114,7 @@ TetherGround USD (USDTg)는 TRON 메인넷에서 운영되는 분산형 스테�
 
 IPFS 백업:
 https://ipfs.io/ipfs/QmRcu4HB7WMCiSjWTtZ8WEjLERbV5RnSz6PxNG5ctorxbA
+
+---
+
+More translations and updates coming soon.
