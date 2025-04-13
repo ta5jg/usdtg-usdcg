@@ -1,1 +1,1 @@
-# FlashTetherTRC20
+# USDTgTokenTRC20
