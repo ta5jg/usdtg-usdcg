@@ -76,5 +76,41 @@ https://ipfs.io/ipfs/QmRcu4HB7WMCiSjWTtZ8WEjLERbV5RnSz6PxNG5ctorxbA
 
 TetherGround USD (USDTg) は、TRON メインネット上で稼働する分散型ステーブルコインプロジェクトです。安全で効率的なデジタル通貨ソリューションを提供することを目指しています。
 
-IPFS バックアップ：
-[https://ipfs.io/ipfs/QmRcu4HB7WMCiSjWTtZ8WEjLERb
+IPFS バックアップ:
+https://ipfs.io/ipfs/QmRcu4HB7WMCiSjWTtZ8WEjLERbV5RnSz6PxNG5ctorxbA
+
+⸻
+
+हिन्दी
+
+TetherGround USD (USDTg) एक विकेन्द्रीकृत स्थिर मुद्रा परियोजना है जो TRON मेननेट पर संचालित होती है। इसका उद्देश्य एक सुरक्षित और कुशल डिजिटल मुद्रा समाधान प्रदान करना है।
+
+IPFS बैकअप:
+https://ipfs.io/ipfs/QmRcu4HB7WMCiSjWTtZ8WEjLERbV5RnSz6PxNG5ctorxbA
+
+⸻
+
+Italiano
+
+TetherGround USD (USDTg) è un progetto di stablecoin decentralizzato che opera sulla rete principale TRON. Mira a fornire una soluzione di valuta digitale sicura ed efficiente.
+
+Backup IPFS:
+https://ipfs.io/ipfs/QmRcu4HB7WMCiSjWTtZ8WEjLERbV5RnSz6PxNG5ctorxbA
+
+⸻
+
+Português
+
+TetherGround USD (USDTg) é um projeto de stablecoin descentralizado operando na mainnet do TRON. Ele visa fornecer uma solução de moeda digital segura e eficiente.
+
+Backup IPFS:
+https://ipfs.io/ipfs/QmRcu4HB7WMCiSjWTtZ8WEjLERbV5RnSz6PxNG5ctorxbA
+
+⸻
+
+한국어
+
+TetherGround USD (USDTg)는 TRON 메인넷에서 운영되는 분산형 스테이블코인 프로젝트입니다. 안전하고 효율적인 디지털 화폐 솔루션을 제공하는 것을 목표로 합니다.
+
+IPFS 백업:
+https://ipfs.io/ipfs/QmRcu4HB7WMCiSjWTtZ8WEjLERbV5RnSz6PxNG5ctorxbA
