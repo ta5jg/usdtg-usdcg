@@ -1,9 +1,8 @@
-// scripts/checkBalance.js
+// scripts/unpause.js
 const TronWeb = require("tronweb");
 const fs = require("fs");
 require("dotenv").config();
 
-// ✅ Doğru ABI yolunu al
 const buildPath = "./build/contracts/USDTgToken.json";
 const { abi } = JSON.parse(fs.readFileSync(buildPath));
 
@@ -15,13 +14,9 @@ const tronWeb = new TronWeb({
 (async () => {
   try {
     const contract = await tronWeb.contract(abi, process.env.CONTRACT_USDTg);
-    const balance = await contract.balanceOf(process.env.ADDRESS).call();
-
-    const decimals = 6;
-    const adjusted = balance / 10 ** decimals;
-
-    console.log(`📊 Balance of ${process.env.ADDRESS}: ${adjusted} USDTg`);
+    const tx = await contract.unpause().send();
+    console.log("✅ Contract unpaused:", tx);
   } catch (err) {
-    console.error("❌ Failed to fetch balance:", err.message || err);
+    console.error("❌ Failed to unpause:", err.message || err);
   }
 })();
