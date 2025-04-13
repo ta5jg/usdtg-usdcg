@@ -8,10 +8,10 @@ import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import "./interfaces/IJustMoneyRouter.sol";
 
-contract FlashTetherTRC20 is ERC20, Ownable, Pausable, ReentrancyGuard {
+contract USDTgTokenTRC20 is ERC20, Ownable, Pausable, ReentrancyGuard {
     uint8 private _decimals = 6;
-    uint256 public maxSupply = 100_000_000_000 * (10 ** 6);
-    bool public maxSupplyFrozen = true;
+    uint256 public maxSupply = 100_000_000_000 * (10 ** 6); // 100B
+    bool public maxSupplyFrozen = false; // changed from true to false
 
     address public feeWallet;
     address public treasuryWallet;
@@ -52,7 +52,7 @@ contract FlashTetherTRC20 is ERC20, Ownable, Pausable, ReentrancyGuard {
 
     function getLatestPrice() public view returns (uint256) {
         address[] memory path = new address[](2);
-        path[0] = address(this); // USDCg or USDTg
+        path[0] = address(this);
         path[1] = usdtAddress;
 
         uint256 amountIn = 1 * (10 ** _decimals);

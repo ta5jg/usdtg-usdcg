@@ -1,27 +1,22 @@
-// scripts/checkBalance.js
+// scripts/checkOwner.js
 const TronWeb = require("tronweb");
 const fs = require("fs");
 require("dotenv").config();
 
-// ✅ Doğru ABI yolunu al
 const buildPath = "./build/contracts/USDTgToken.json";
 const { abi } = JSON.parse(fs.readFileSync(buildPath));
 
 const tronWeb = new TronWeb({
-  fullHost: "https://api.trongrid.io",
+  fullHost: "https://api.trongrid.io", // mainnet için
   privateKey: process.env.PRIVATE_KEY,
 });
 
 (async () => {
   try {
     const contract = await tronWeb.contract(abi, process.env.CONTRACT_USDTg);
-    const balance = await contract.balanceOf(process.env.ADDRESS).call();
-
-    const decimals = 6;
-    const adjusted = balance / 10 ** decimals;
-
-    console.log(`📊 Balance of ${process.env.ADDRESS}: ${adjusted} USDTg`);
+    const owner = await contract.owner().call();
+    console.log("👑 Contract Owner:", owner);
   } catch (err) {
-    console.error("❌ Failed to fetch balance:", err.message || err);
+    console.error("❌ Failed to fetch owner:", err.message || err);
   }
 })();
