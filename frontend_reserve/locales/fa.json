@@ -1,0 +1,157 @@
+{
+  "wallet": {
+    "connected": "کیف پول متصل",
+    "notConnected": "کیف پول متصل نیست",
+    "address": "آدرس کیف پول متصل",
+    "notFound": "کیف پول Web3 یافت نشد.",
+    "addTokenButton": "اضافه کردن",
+    "actions": "اقدامات کیف پول"
+  },
+  "header": {
+    "title": "کیف پول USDTZ",
+    "description": "تجربه کیف پول ایمن و سریع Web3",
+    "connectWallet": "کیف پول را به هم وصل کنید"
+  },
+  "actions": {
+    "send": "ارسال کردن",
+    "receive": "دریافت کردن",
+    "swap": "مبادله کردن"
+  },
+  "tokenCard": {
+    "title": "تعادل شما",
+    "symbol": "USDTz",
+    "pricePer": "1 {token} =",
+    "livePrice": "1 {token} =",
+    "totalValue": "ارزش کل:"
+  },
+  "sendModal": {
+    "sendTokens": "ارسال نشانه ها",
+    "header": "ارسال نشانه ها",
+    "recipientAddress": "آدرس گیرنده",
+    "amount": "مقدار",
+    "amountLabel": "مقدار (USDTZ):",
+    "amountPlaceholder": "مبلغ ارسال را وارد کنید",
+    "recipientLabel": "آدرس گیرنده",
+    "recipientPlaceholder": "آدرس کیف پول را وارد کنید",
+    "cancel": "لغو کردن",
+    "confirm": "تأیید کردن"
+  },
+  "receiveModal": {
+    "receiveTokens": "دریافت نشانه ها",
+    "yourAddress": "آدرس شما",
+    "copy": "آدرس کپی"
+  },
+  "swapModal": {
+    "swapTokens": "توکن ها",
+    "fromToken": "از توکن",
+    "toToken": "نشانه",
+    "amount": "مقدار",
+    "cancel": "لغو کردن",
+    "confirm": "تأیید کردن"
+  },
+  "swapHistory": {
+    "title": "سابقه معامله",
+    "empty": "هنوز تعویض نشده است.",
+    "clear": "تاریخ روشن",
+    "download": "بارگیری XLSX",
+    "filterByType": "فیلتر بر اساس نوع",
+    "allTypes": "همه نوع",
+    "send": "ارسال کردن",
+    "receive": "دریافت کردن",
+    "swap": "مبادله کردن",
+    "clearHistory": "تاریخ روشن",
+    "sortNewest": "Newest First",
+    "sortOldest": "قدیمی ترین اول",
+    "all": "همه",
+    "details": "جزئیات",
+    "startDate": "تاریخ شروع",
+    "endDate": "تاریخ پایان",
+    "searchPlaceholder": "با مبلغ ، آدرس یا تاریخ جستجو کنید",
+    "summary": "خلاصه",
+    "totalSwaps": "تعداد تعویض کل:",
+    "totalSends": "تعداد ارسال تعداد:",
+    "amountPrefix": "مقدار:",
+    "transactionFormat": {
+      "swap": "+{مقدار} usdtz → {آدرس}",
+      "send": "-{مقدار} usdtz → {آدرس}",
+      "receive": "{مقدار} USDTZ ← {آدرس}",
+      "default": "{مقدار} USDTZ"
+    },
+    "chartLabel": "مبلغ مبادله",
+    "labelSwap": "مبادله:",
+    "labelSend": "ارسال:",
+    "labelAmount": "مقدار:",
+    "detailsLink": "جزئیات",
+    "labelSwapPrefix": "مبادله:",
+    "labelSendPrefix": "ارسال:",
+    "labelAmountPrefix": "مقدار:",
+    "labelDate": "تاریخ:",
+    "swapDirection": "{از} → {به}",
+    "amountLine": "مقدار: {مقدار} USDTZ",
+    "labelWallet": "کیف پول",
+    "walletIndex": "کیف پول {فهرست}",
+    "walletSelect": "کیف پول را انتخاب کنید",
+    "walletAdd": "+ کیف پول اضافه کنید",
+    "walletAdded": "کیف پول اضافه شده",
+    "walletInvalid": "آدرس کیف پول نامعتبر",
+    "walletExists": "کیف پول در حال حاضر وجود دارد",
+    "transactionSwap": "مبادله: +{مقدار} usdtz → {توکن}",
+    "transactionSend": "ارسال: -{مقدار} usdtz → {آدرس}",
+    "transactionAmount": "مقدار: {مقدار} USDTZ"
+  },
+  "swap": {
+    "title": "توکن ها",
+    "amountLabel": "مقدار (USDTZ):",
+    "placeholder": "مبلغ را برای مبادله وارد کنید",
+    "targetTokenLabel": "نشانه هدف:",
+    "confirm": "تأیید کردن",
+    "close": "نزدیک"
+  },
+  "receive": {
+    "title": "دریافت نشانه ها"
+  },
+  "common": {
+    "close": "نزدیک",
+    "copy": "کپی کردن",
+    "cancel": "لغو کردن"
+  },
+  "transactionTypes": {
+    "swap": "مبادله کردن",
+    "send": "ارسال کردن",
+    "receive": "دریافت کردن"
+  },
+  "csv": {
+    "headers": {
+      "type": "نوع",
+      "date": "تاریخ",
+      "time": "زمان",
+      "amount": "مقدار",
+      "targetToken": "نشان هدف",
+      "address": "خطاب"
+    }
+  },
+  "languageSelector": {
+    "label": "زبان:"
+  },
+  "transactionDetails": {
+    "title": "جزئیات معامله",
+    "type": "نوع",
+    "date": "تاریخ",
+    "amount": "مقدار",
+    "targetToken": "نشان هدف",
+    "recipient": "دریافت کننده",
+    "sender": "فرستنده",
+    "empty": "در دسترس نیست"
+  },
+  "swapHistoryFilter": {
+    "filterByType": "فیلتر بر اساس نوع معامله",
+    "sortNewest": "جدیدترین اول",
+    "sortOldest": "قدیمی ترین اول",
+    "startDate": "تاریخ شروع",
+    "endDate": "تاریخ پایان"
+  },
+  "addTokenButton": {
+    "label": "اضافه کردن",
+    "selectToken": "برای افزودن یک توکن را انتخاب کنید"
+  }
+}

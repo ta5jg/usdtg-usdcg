@@ -5,4 +5,4 @@
 ███████║███████╗██║  ██║███████╗██║ ╚████║███████╗   ██║   ███████╗██║  ██║
 ╚══════╝╚══════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚══════╝╚═╝  ╚═╝
 
-       ⚡ USDTz: Stable. Simple. Solid. Now deployed on TRON.
+       ⚡ USDTg: Stable. Simple. Solid. Now deployed on TRON.

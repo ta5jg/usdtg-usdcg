@@ -19,7 +19,7 @@ rl.on('close', () => {
 
   setTimeout(() => {
     animation.stop(); // Stop after 8 seconds
-    console.log('\n🎉 USDTz is LIVE on TRON. Begin your journey.\n');
+    console.log('\n🎉 USDTg is LIVE on TRON. Begin your journey.\n');
     process.exit(0);
   }, 8000);
 });

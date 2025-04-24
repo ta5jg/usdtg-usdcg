@@ -1,0 +1,157 @@
+{
+  "wallet": {
+    "connected": "接続されたウォレット",
+    "notConnected": "ウォレットが接続されていません",
+    "address": "接続されたウォレットアドレス",
+    "notFound": "Web3ウォレットが見つかりません。",
+    "addTokenButton": "トークンを追加します",
+    "actions": "ウォレットアクション"
+  },
+  "header": {
+    "title": "USDTZウォレット",
+    "description": "安全で高速のWeb3ウォレットエクスペリエンス",
+    "connectWallet": "ウォレットを接続します"
+  },
+  "actions": {
+    "send": "送信",
+    "receive": "受け取る",
+    "swap": "スワップ"
+  },
+  "tokenCard": {
+    "title": "あなたのバランス",
+    "symbol": "USDTz",
+    "pricePer": "1 {token} =",
+    "livePrice": "1 {token} =",
+    "totalValue": "合計値："
+  },
+  "sendModal": {
+    "sendTokens": "トークンを送信します",
+    "header": "トークンを送信します",
+    "recipientAddress": "受信者アドレス",
+    "amount": "額",
+    "amountLabel": "金額（USDTZ）：",
+    "amountPlaceholder": "送信する金額を入力します",
+    "recipientLabel": "受信者アドレス",
+    "recipientPlaceholder": "ウォレットアドレスを入力します",
+    "cancel": "キャンセル",
+    "confirm": "確認する"
+  },
+  "receiveModal": {
+    "receiveTokens": "トークンを受け取ります",
+    "yourAddress": "あなたの住所",
+    "copy": "アドレスをコピーします"
+  },
+  "swapModal": {
+    "swapTokens": "トークンを交換します",
+    "fromToken": "トークンから",
+    "toToken": "トークンに",
+    "amount": "額",
+    "cancel": "キャンセル",
+    "confirm": "確認する"
+  },
+  "swapHistory": {
+    "title": "取引履歴",
+    "empty": "まだスワップはありません。",
+    "clear": "明確な歴史",
+    "download": "XLSXをダウンロードします",
+    "filterByType": "タイプごとにフィルター",
+    "allTypes": "すべてのタイプ",
+    "send": "送信",
+    "receive": "受け取る",
+    "swap": "スワップ",
+    "clearHistory": "明確な歴史",
+    "sortNewest": "最新の最初",
+    "sortOldest": "最も古い最初",
+    "all": "全て",
+    "details": "詳細",
+    "startDate": "開始日",
+    "endDate": "終了日",
+    "searchPlaceholder": "金額、住所、または日付で検索します",
+    "summary": "まとめ",
+    "totalSwaps": "合計スワップ数：",
+    "totalSends": "合計送信カウント：",
+    "amountPrefix": "額：",
+    "transactionFormat": {
+      "swap": "+{量} usdtz→{address}",
+      "send": "-  {額} usdtz→{address}",
+      "receive": "{lument} usdtz←{address}",
+      "default": "{額} usdtz"
+    },
+    "chartLabel": "交換金額",
+    "labelSwap": "スワップ：",
+    "labelSend": "送信：",
+    "labelAmount": "額：",
+    "detailsLink": "詳細",
+    "labelSwapPrefix": "スワップ：",
+    "labelSendPrefix": "送信：",
+    "labelAmountPrefix": "額：",
+    "labelDate": "日付：",
+    "swapDirection": "{from}→{to}",
+    "amountLine": "金額：{金額} USDTZ",
+    "labelWallet": "財布",
+    "walletIndex": "ウォレット{インデックス}",
+    "walletSelect": "ウォレットを選択します",
+    "walletAdd": "+ウォレットを追加します",
+    "walletAdded": "ウォレットが追加されました",
+    "walletInvalid": "無効なウォレットアドレス",
+    "walletExists": "ウォレットはすでに存在しています",
+    "transactionSwap": "スワップ： +{lument} usdtz→{token}",
+    "transactionSend": "送信： -  {額} usdtz→{address}",
+    "transactionAmount": "金額：{金額} USDTZ"
+  },
+  "swap": {
+    "title": "トークンを交換します",
+    "amountLabel": "金額（USDTZ）：",
+    "placeholder": "スワップに金額を入力します",
+    "targetTokenLabel": "ターゲットトークン：",
+    "confirm": "確認する",
+    "close": "近い"
+  },
+  "receive": {
+    "title": "トークンを受け取ります"
+  },
+  "common": {
+    "close": "近い",
+    "copy": "コピー",
+    "cancel": "キャンセル"
+  },
+  "transactionTypes": {
+    "swap": "スワップ",
+    "send": "送信",
+    "receive": "受け取る"
+  },
+  "csv": {
+    "headers": {
+      "type": "タイプ",
+      "date": "日付",
+      "time": "時間",
+      "amount": "額",
+      "targetToken": "ターゲットトークン",
+      "address": "住所"
+    }
+  },
+  "languageSelector": {
+    "label": "言語："
+  },
+  "transactionDetails": {
+    "title": "トランザクションの詳細",
+    "type": "タイプ",
+    "date": "日付",
+    "amount": "額",
+    "targetToken": "ターゲットトークン",
+    "recipient": "受信者",
+    "sender": "送信者",
+    "empty": "利用不可"
+  },
+  "swapHistoryFilter": {
+    "filterByType": "トランザクションタイプごとにフィルター",
+    "sortNewest": "最新の最初",
+    "sortOldest": "最も古い最初",
+    "startDate": "開始日",
+    "endDate": "終了日"
+  },
+  "addTokenButton": {
+    "label": "トークンを追加します",
+    "selectToken": "追加するトークンを選択します"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "wallet": {
+    "connected": "बटुआ जुड़ा हुआ",
+    "notConnected": "बटुआ जुड़ा नहीं",
+    "address": "जुड़ा बटुआ पता",
+    "notFound": "Web3 वॉलेट नहीं मिला।",
+    "addTokenButton": "टोकन जोड़ें",
+    "actions": "बटुआ क्रिया"
+  },
+  "header": {
+    "title": "USDTZ वॉलेट",
+    "description": "सुरक्षित और तेज़ वेब 3 वॉलेट अनुभव",
+    "connectWallet": "कनेक्ट वॉलेट"
+  },
+  "actions": {
+    "send": "भेजना",
+    "receive": "प्राप्त करें",
+    "swap": "बदलना"
+  },
+  "tokenCard": {
+    "title": "आपका बैलेंस",
+    "symbol": "USDTz",
+    "pricePer": "1 {token} =",
+    "livePrice": "1 {token} =",
+    "totalValue": "कुल मूल्य:"
+  },
+  "sendModal": {
+    "sendTokens": "टोकन भेजें",
+    "header": "टोकन भेजें",
+    "recipientAddress": "प्राप्तकर्ता पता",
+    "amount": "मात्रा",
+    "amountLabel": "राशि (USDTZ):",
+    "amountPlaceholder": "भेजने के लिए राशि दर्ज करें",
+    "recipientLabel": "प्राप्तकर्ता पता",
+    "recipientPlaceholder": "वॉलेट पता दर्ज करें",
+    "cancel": "रद्द करना",
+    "confirm": "पुष्टि करना"
+  },
+  "receiveModal": {
+    "receiveTokens": "टोकन प्राप्त करें",
+    "yourAddress": "तुम्हारा पता",
+    "copy": "प्रतिलिपि पता"
+  },
+  "swapModal": {
+    "swapTokens": "स्वैप टोकन",
+    "fromToken": "टोकन से",
+    "toToken": "टोकन को",
+    "amount": "मात्रा",
+    "cancel": "रद्द करना",
+    "confirm": "पुष्टि करना"
+  },
+  "swapHistory": {
+    "title": "ट्रांजेक्शन इतिहास",
+    "empty": "अभी तक कोई स्वैप नहीं बनाया गया है।",
+    "clear": "इतिहास मिटा दें",
+    "download": "डाउनलोड xlsx",
+    "filterByType": "प्रकार से फ़िल्टर करें",
+    "allTypes": "सभी प्रकार",
+    "send": "भेजना",
+    "receive": "प्राप्त करें",
+    "swap": "बदलना",
+    "clearHistory": "इतिहास मिटा दें",
+    "sortNewest": "नवीनतम पहला",
+    "sortOldest": "सबसे पुराना पहले",
+    "all": "सभी",
+    "details": "विवरण",
+    "startDate": "आरंभ करने की तिथि",
+    "endDate": "अंतिम तिथि",
+    "searchPlaceholder": "राशि, पता या तिथि द्वारा खोजें",
+    "summary": "सारांश",
+    "totalSwaps": "कुल स्वैप गणना:",
+    "totalSends": "कुल भेजें गिनती:",
+    "amountPrefix": "मात्रा:",
+    "transactionFormat": {
+      "swap": "+{राशि} usdtz → {पता}",
+      "send": "-{राशि} usdtz → {पता}",
+      "receive": "{राशि} usdtz {{पता}",
+      "default": "{राशि} usdtz"
+    },
+    "chartLabel": "स्वैप राशि",
+    "labelSwap": "बदलना:",
+    "labelSend": "भेजना:",
+    "labelAmount": "मात्रा:",
+    "detailsLink": "विवरण",
+    "labelSwapPrefix": "बदलना:",
+    "labelSendPrefix": "भेजना:",
+    "labelAmountPrefix": "मात्रा:",
+    "labelDate": "तारीख:",
+    "swapDirection": "{से} → {से} से",
+    "amountLine": "राशि: {राशि} usdtz",
+    "labelWallet": "बटुआ",
+    "walletIndex": "वॉलेट {इंडेक्स}",
+    "walletSelect": "बटुआ का चयन करें",
+    "walletAdd": "+ बटुआ जोड़ें",
+    "walletAdded": "बटुए जोड़ा गया",
+    "walletInvalid": "अमान्य बटुआ पता",
+    "walletExists": "बटुआ पहले से मौजूद है",
+    "transactionSwap": "स्वैप: +{राशि} usdtz → {टोकन}",
+    "transactionSend": "भेजें: -{राशि} usdtz → {पता}",
+    "transactionAmount": "राशि: {राशि} usdtz"
+  },
+  "swap": {
+    "title": "स्वैप टोकन",
+    "amountLabel": "राशि (USDTZ):",
+    "placeholder": "स्वैप करने के लिए राशि दर्ज करें",
+    "targetTokenLabel": "लक्ष्य टोकन:",
+    "confirm": "पुष्टि करना",
+    "close": "बंद करना"
+  },
+  "receive": {
+    "title": "टोकन प्राप्त करें"
+  },
+  "common": {
+    "close": "बंद करना",
+    "copy": "प्रतिलिपि",
+    "cancel": "रद्द करना"
+  },
+  "transactionTypes": {
+    "swap": "बदलना",
+    "send": "भेजना",
+    "receive": "प्राप्त करें"
+  },
+  "csv": {
+    "headers": {
+      "type": "प्रकार",
+      "date": "तारीख",
+      "time": "समय",
+      "amount": "मात्रा",
+      "targetToken": "लक्ष्य टोकन",
+      "address": "Address"
+    }
+  },
+  "languageSelector": {
+    "label": "भाषा:"
+  },
+  "transactionDetails": {
+    "title": "लेन -देन विवरण",
+    "type": "प्रकार",
+    "date": "तारीख",
+    "amount": "मात्रा",
+    "targetToken": "लक्ष्य टोकन",
+    "recipient": "प्राप्तकर्ता",
+    "sender": "प्रेषक",
+    "empty": "उपलब्ध नहीं है"
+  },
+  "swapHistoryFilter": {
+    "filterByType": "लेन -देन प्रकार द्वारा फ़िल्टर",
+    "sortNewest": "नवीनतम पहला",
+    "sortOldest": "सबसे पुराना पहले",
+    "startDate": "आरंभ करने की तिथि",
+    "endDate": "अंतिम तिथि"
+  },
+  "addTokenButton": {
+    "label": "टोकन जोड़ें",
+    "selectToken": "जोड़ने के लिए एक टोकन का चयन करें"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "wallet": {
+    "connected": "지갑이 연결되어 있습니다",
+    "notConnected": "지갑이 연결되지 않았습니다",
+    "address": "연결된 지갑 주소",
+    "notFound": "Web3 지갑을 찾을 수 없습니다.",
+    "addTokenButton": "토큰을 추가하십시오",
+    "actions": "지갑 동작"
+  },
+  "header": {
+    "title": "USDTZ 지갑",
+    "description": "안전하고 빠른 Web3 지갑 경험",
+    "connectWallet": "Connect Wallet"
+  },
+  "actions": {
+    "send": "보내다",
+    "receive": "받다",
+    "swap": "교환"
+  },
+  "tokenCard": {
+    "title": "당신의 균형",
+    "symbol": "USDTz",
+    "pricePer": "1 {token} =",
+    "livePrice": "1 {token} =",
+    "totalValue": "총 가치 :"
+  },
+  "sendModal": {
+    "sendTokens": "토큰을 보내십시오",
+    "header": "토큰을 보내십시오",
+    "recipientAddress": "수신자 주소",
+    "amount": "양",
+    "amountLabel": "금액 (USDTZ) :",
+    "amountPlaceholder": "보낼 금액을 입력하십시오",
+    "recipientLabel": "수신자 주소",
+    "recipientPlaceholder": "지갑 주소를 입력하십시오",
+    "cancel": "취소",
+    "confirm": "확인하다"
+  },
+  "receiveModal": {
+    "receiveTokens": "토큰을받습니다",
+    "yourAddress": "당신의 주소",
+    "copy": "주소를 복사하십시오"
+  },
+  "swapModal": {
+    "swapTokens": "토큰 교체",
+    "fromToken": "토큰에서",
+    "toToken": "토큰에게",
+    "amount": "양",
+    "cancel": "취소",
+    "confirm": "확인하다"
+  },
+  "swapHistory": {
+    "title": "거래 기록",
+    "empty": "아직 스왑이 없습니다.",
+    "clear": "명확한 역사",
+    "download": "xlsx를 다운로드하십시오",
+    "filterByType": "유형별 필터",
+    "allTypes": "모든 유형",
+    "send": "보내다",
+    "receive": "받다",
+    "swap": "교환",
+    "clearHistory": "명확한 역사",
+    "sortNewest": "최신 첫 번째",
+    "sortOldest": "가장 오래된 첫 번째",
+    "all": "모두",
+    "details": "세부",
+    "startDate": "시작 날짜",
+    "endDate": "종료 날짜",
+    "searchPlaceholder": "금액, 주소 또는 날짜별로 검색하십시오",
+    "summary": "요약",
+    "totalSwaps": "총 스왑 수 :",
+    "totalSends": "총 보내기 수 :",
+    "amountPrefix": "양:",
+    "transactionFormat": {
+      "swap": "+{금액} USDTZ → {주소}",
+      "send": "-{금액} USDTZ → {주소}",
+      "receive": "{금액} USDTZ ← {주소}",
+      "default": "{금액} USDTZ"
+    },
+    "chartLabel": "금액을 바꾸십시오",
+    "labelSwap": "교환:",
+    "labelSend": "보내다:",
+    "labelAmount": "양:",
+    "detailsLink": "세부",
+    "labelSwapPrefix": "교환:",
+    "labelSendPrefix": "보내다:",
+    "labelAmountPrefix": "양:",
+    "labelDate": "날짜:",
+    "swapDirection": "{from} → {to}",
+    "amountLine": "금액 : {금액} USDTZ",
+    "labelWallet": "지갑",
+    "walletIndex": "지갑 {index}",
+    "walletSelect": "지갑을 선택하십시오",
+    "walletAdd": "+ 지갑을 추가하십시오",
+    "walletAdded": "지갑이 추가되었습니다",
+    "walletInvalid": "잘못된 지갑 주소",
+    "walletExists": "지갑이 이미 존재합니다",
+    "transactionSwap": "스왑 : +{금액} USDTZ → {TOKEN}",
+    "transactionSend": "보내기 : -{금액} USDTZ → {주소}",
+    "transactionAmount": "금액 : {금액} USDTZ"
+  },
+  "swap": {
+    "title": "토큰 교체",
+    "amountLabel": "금액 (USDTZ) :",
+    "placeholder": "스왑하려면 금액을 입력하십시오",
+    "targetTokenLabel": "대상 토큰 :",
+    "confirm": "확인하다",
+    "close": "닫다"
+  },
+  "receive": {
+    "title": "토큰을받습니다"
+  },
+  "common": {
+    "close": "닫다",
+    "copy": "복사",
+    "cancel": "취소"
+  },
+  "transactionTypes": {
+    "swap": "교환",
+    "send": "보내다",
+    "receive": "받다"
+  },
+  "csv": {
+    "headers": {
+      "type": "유형",
+      "date": "날짜",
+      "time": "시간",
+      "amount": "양",
+      "targetToken": "대상 토큰",
+      "address": "주소"
+    }
+  },
+  "languageSelector": {
+    "label": "언어:"
+  },
+  "transactionDetails": {
+    "title": "거래 세부 사항",
+    "type": "유형",
+    "date": "Date",
+    "amount": "양",
+    "targetToken": "대상 토큰",
+    "recipient": "받는 사람",
+    "sender": "보내는 사람",
+    "empty": "사용할 수 없습니다"
+  },
+  "swapHistoryFilter": {
+    "filterByType": "트랜잭션 유형별 필터",
+    "sortNewest": "최신 첫 번째",
+    "sortOldest": "가장 오래된 첫 번째",
+    "startDate": "시작 날짜",
+    "endDate": "종료 날짜"
+  },
+  "addTokenButton": {
+    "label": "토큰을 추가하십시오",
+    "selectToken": "추가 할 토큰을 선택하십시오"
+  }
+}

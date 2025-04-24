@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="campaign">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/campaign.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

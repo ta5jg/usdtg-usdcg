@@ -1,0 +1,149 @@
+[
+  {
+    "name": "Flash Tether",
+    "symbol": "USDTz",
+    "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/ta5jg/usdtz/main/logo.png"
+  },
+  {
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "address": "0xdAC17F958D2ee523a2206206994597C13D831EC7",
+    "decimals": 6,
+    "logoURI": "https://cryptologos.cc/logos/tether-usdt-logo.png"
+  },
+  {
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "address": "0xA0b86991C6218B36C1D19D4A2E9Eb0CE3606EB48",
+    "decimals": 6,
+    "logoURI": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png"
+  },
+  {
+    "name": "Dai Stablecoin",
+    "symbol": "DAI",
+    "address": "0x6B175474E89094C44Da98b954EedeAC495271D0F",
+    "decimals": 18,
+    "logoURI": "https://cryptologos.cc/logos/multi-collateral-dai-dai-logo.png"
+  },
+  {
+    "name": "Wrapped Bitcoin",
+    "symbol": "WBTC",
+    "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+    "decimals": 8,
+    "logoURI": "https://cryptologos.cc/logos/wrapped-bitcoin-wbtc-logo.png"
+  },
+  {
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "address": "N/A",
+    "decimals": 8,
+    "logoURI": "https://cryptologos.cc/logos/bitcoin-btc-logo.png"
+  },
+  {
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "address": "N/A",
+    "decimals": 18,
+    "logoURI": "https://cryptologos.cc/logos/ethereum-eth-logo.png"
+  },
+  {
+    "name": "BNB",
+    "symbol": "BNB",
+    "address": "N/A",
+    "decimals": 18,
+    "logoURI": "https://cryptologos.cc/logos/bnb-bnb-logo.png"
+  },
+  {
+    "name": "Cardano",
+    "symbol": "ADA",
+    "address": "N/A",
+    "decimals": 6,
+    "logoURI": "https://cryptologos.cc/logos/cardano-ada-logo.png"
+  },
+  {
+    "name": "Polygon",
+    "symbol": "MATIC",
+    "address": "N/A",
+    "decimals": 18,
+    "logoURI": "https://cryptologos.cc/logos/polygon-matic-logo.png"
+  },
+  {
+    "name": "Solana",
+    "symbol": "SOL",
+    "address": "N/A",
+    "decimals": 9,
+    "logoURI": "https://cryptologos.cc/logos/solana-sol-logo.png"
+  },
+  {
+    "name": "Avalanche",
+    "symbol": "AVAX",
+    "address": "N/A",
+    "decimals": 18,
+    "logoURI": "https://cryptologos.cc/logos/avalanche-avax-logo.png"
+  },
+  {
+    "name": "XRP",
+    "symbol": "XRP",
+    "address": "N/A",
+    "decimals": 6,
+    "logoURI": "https://cryptologos.cc/logos/xrp-xrp-logo.png"
+  },
+  {
+    "name": "Dogecoin",
+    "symbol": "DOGE",
+    "address": "N/A",
+    "decimals": 8,
+    "logoURI": "https://cryptologos.cc/logos/dogecoin-doge-logo.png"
+  },
+  {
+    "name": "Shiba Inu",
+    "symbol": "SHIB",
+    "address": "N/A",
+    "decimals": 18,
+    "logoURI": "https://cryptologos.cc/logos/shiba-inu-shib-logo.png"
+  },
+  {
+    "name": "Litecoin",
+    "symbol": "LTC",
+    "address": "N/A",
+    "decimals": 8,
+    "logoURI": "https://cryptologos.cc/logos/litecoin-ltc-logo.png"
+  },
+  {
+    "name": "Chainlink",
+    "symbol": "LINK",
+    "address": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+    "decimals": 18,
+    "logoURI": "https://cryptologos.cc/logos/chainlink-link-logo.png"
+  },
+  {
+    "name": "Uniswap",
+    "symbol": "UNI",
+    "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+    "decimals": 18,
+    "logoURI": "https://cryptologos.cc/logos/uniswap-uni-logo.png"
+  },
+  {
+    "name": "Aave",
+    "symbol": "AAVE",
+    "address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DdAE9",
+    "decimals": 18,
+    "logoURI": "https://cryptologos.cc/logos/aave-aave-logo.png"
+  },
+  {
+    "name": "Maker",
+    "symbol": "MKR",
+    "address": "0x9f8F72aA9304c8B593d555F12ef6589Cc3A579A2",
+    "decimals": 18,
+    "logoURI": "https://cryptologos.cc/logos/maker-mkr-logo.png"
+  },
+  {
+    "name": "PancakeSwap",
+    "symbol": "CAKE",
+    "address": "N/A",
+    "decimals": 18,
+    "logoURI": "https://cryptologos.cc/logos/pancakeswap-cake-logo.png"
+  }
+]

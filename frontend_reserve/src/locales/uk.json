@@ -1,0 +1,157 @@
+{
+  "wallet": {
+    "connected": "Гаманець з’єднаний",
+    "notConnected": "Гаманець не з'єднаний",
+    "address": "Адреса підключеного гаманця",
+    "notFound": "Web3 Wallet не знайдено.",
+    "addTokenButton": "Додати маркер",
+    "actions": "Дії гаманця"
+  },
+  "header": {
+    "title": "USDTZ гаманець",
+    "description": "Безпечний та швидкий досвід Web3 Wallet",
+    "connectWallet": "Підключіть гаманець"
+  },
+  "actions": {
+    "send": "Надсилати",
+    "receive": "Отримувати",
+    "swap": "Обміняти"
+  },
+  "tokenCard": {
+    "title": "Ваш баланс",
+    "symbol": "USDTz",
+    "pricePer": "1 {token} =",
+    "livePrice": "1 {token} =",
+    "totalValue": "Загальна вартість:"
+  },
+  "sendModal": {
+    "sendTokens": "Надішліть жетони",
+    "header": "Надішліть жетони",
+    "recipientAddress": "Адреса одержувача",
+    "amount": "Обсяг",
+    "amountLabel": "Сума (USDTZ):",
+    "amountPlaceholder": "Введіть суму, щоб надіслати",
+    "recipientLabel": "Адреса одержувача",
+    "recipientPlaceholder": "Введіть адресу гаманця",
+    "cancel": "Скасувати",
+    "confirm": "Підтверджувати"
+  },
+  "receiveModal": {
+    "receiveTokens": "Отримати жетони",
+    "yourAddress": "Ваша адреса",
+    "copy": "Адреса копії"
+  },
+  "swapModal": {
+    "swapTokens": "Обмін жетонів",
+    "fromToken": "Від жетона",
+    "toToken": "До жетону",
+    "amount": "Обсяг",
+    "cancel": "Скасувати",
+    "confirm": "Підтверджувати"
+  },
+  "swapHistory": {
+    "title": "Історія транзакцій",
+    "empty": "Ще не зроблено свопів.",
+    "clear": "Чітка історія",
+    "download": "Завантажити XLSX",
+    "filterByType": "Фільтр за типом",
+    "allTypes": "Всі типи",
+    "send": "Надсилати",
+    "receive": "Отримувати",
+    "swap": "Обміняти",
+    "clearHistory": "Чітка історія",
+    "sortNewest": "Найновіший перший",
+    "sortOldest": "Найстаріший перший",
+    "all": "Все",
+    "details": "Деталі",
+    "startDate": "Дата початку",
+    "endDate": "Дата закінчення",
+    "searchPlaceholder": "Пошук за сумою, адресою або датою",
+    "summary": "Резюме",
+    "totalSwaps": "Загальна кількість свопів:",
+    "totalSends": "Загальний підліток:",
+    "amountPrefix": "Сума:",
+    "transactionFormat": {
+      "swap": "+{Сума} USDTZ → {address}",
+      "send": "-{Сума} USDTZ → {адреса}",
+      "receive": "{Сума} USDTZ ← {адреса}",
+      "default": "{Сума} USDTZ"
+    },
+    "chartLabel": "Сума обміну",
+    "labelSwap": "Своп:",
+    "labelSend": "Надіслати:",
+    "labelAmount": "Сума:",
+    "detailsLink": "Деталі",
+    "labelSwapPrefix": "Своп:",
+    "labelSendPrefix": "Надіслати:",
+    "labelAmountPrefix": "Сума:",
+    "labelDate": "Дата:",
+    "swapDirection": "{від} → {до}",
+    "amountLine": "Сума: {Сума} USDTZ",
+    "labelWallet": "Гаманець",
+    "walletIndex": "Гаманець {index}",
+    "walletSelect": "Виберіть гаманець",
+    "walletAdd": "+ Додати гаманець",
+    "walletAdded": "Додано гаманець",
+    "walletInvalid": "Недійна адреса гаманця",
+    "walletExists": "Wallet already exists",
+    "transactionSwap": "SWAP: +{Сума} USDTZ → {Token}",
+    "transactionSend": "Надіслати: -{Сума} USDTZ → {Адреса}",
+    "transactionAmount": "Сума: {Сума} USDTZ"
+  },
+  "swap": {
+    "title": "Обмін жетонів",
+    "amountLabel": "Сума (USDTZ):",
+    "placeholder": "Введіть суму для обміну",
+    "targetTokenLabel": "Target Token:",
+    "confirm": "Підтверджувати",
+    "close": "Закривати"
+  },
+  "receive": {
+    "title": "Отримати жетони"
+  },
+  "common": {
+    "close": "Закривати",
+    "copy": "Копіювати",
+    "cancel": "Скасувати"
+  },
+  "transactionTypes": {
+    "swap": "Обміняти",
+    "send": "Надсилати",
+    "receive": "Отримувати"
+  },
+  "csv": {
+    "headers": {
+      "type": "Тип",
+      "date": "Дата",
+      "time": "Час",
+      "amount": "Обсяг",
+      "targetToken": "Target Token",
+      "address": "Адреса"
+    }
+  },
+  "languageSelector": {
+    "label": "Мова:"
+  },
+  "transactionDetails": {
+    "title": "Деталі транзакції",
+    "type": "Тип",
+    "date": "Дата",
+    "amount": "Обсяг",
+    "targetToken": "Target Token",
+    "recipient": "Одержувач",
+    "sender": "Відправник",
+    "empty": "Недоступний"
+  },
+  "swapHistoryFilter": {
+    "filterByType": "Фільтр за типом транзакції",
+    "sortNewest": "Найновіший перший",
+    "sortOldest": "Найстаріший перший",
+    "startDate": "Дата початку",
+    "endDate": "Дата закінчення"
+  },
+  "addTokenButton": {
+    "label": "Додати маркер",
+    "selectToken": "Виберіть маркер, щоб додати"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "wallet": {
+    "connected": "Dompet terhubung",
+    "notConnected": "Dompet tidak terhubung",
+    "address": "Alamat dompet yang terhubung",
+    "notFound": "Dompet web3 tidak ditemukan.",
+    "addTokenButton": "Tambahkan token",
+    "actions": "Tindakan dompet"
+  },
+  "header": {
+    "title": "Dompet usdtz",
+    "description": "Pengalaman Dompet Web3 yang Aman dan Cepat",
+    "connectWallet": "Hubungkan Dompet"
+  },
+  "actions": {
+    "send": "Mengirim",
+    "receive": "Menerima",
+    "swap": "Menukar"
+  },
+  "tokenCard": {
+    "title": "Saldo Anda",
+    "symbol": "USDTz",
+    "pricePer": "1 {token} =",
+    "livePrice": "1 {token} =",
+    "totalValue": "Nilai Total:"
+  },
+  "sendModal": {
+    "sendTokens": "Kirim token",
+    "header": "Kirim token",
+    "recipientAddress": "Alamat penerima",
+    "amount": "Jumlah",
+    "amountLabel": "Jumlah (USDTZ):",
+    "amountPlaceholder": "Masukkan Jumlah yang Untuk Dikirim",
+    "recipientLabel": "Alamat penerima",
+    "recipientPlaceholder": "Masukkan alamat dompet",
+    "cancel": "Membatalkan",
+    "confirm": "Mengonfirmasi"
+  },
+  "receiveModal": {
+    "receiveTokens": "Menerima token",
+    "yourAddress": "Alamat Anda",
+    "copy": "Salin alamat"
+  },
+  "swapModal": {
+    "swapTokens": "Token Pertukaran",
+    "fromToken": "Dari token",
+    "toToken": "Ke token",
+    "amount": "Jumlah",
+    "cancel": "Membatalkan",
+    "confirm": "Mengonfirmasi"
+  },
+  "swapHistory": {
+    "title": "Riwayat transaksi",
+    "empty": "Belum ada swap yang dibuat.",
+    "clear": "Sejarah yang jelas",
+    "download": "Unduh XLSX",
+    "filterByType": "Filter berdasarkan jenis",
+    "allTypes": "Semua jenis",
+    "send": "Mengirim",
+    "receive": "Menerima",
+    "swap": "Menukar",
+    "clearHistory": "Sejarah yang jelas",
+    "sortNewest": "Yang terbaru dulu",
+    "sortOldest": "Oldest First",
+    "all": "Semua",
+    "details": "Detail",
+    "startDate": "Tanggal mulai",
+    "endDate": "Tanggal akhir",
+    "searchPlaceholder": "Cari berdasarkan jumlah, alamat, atau tanggal",
+    "summary": "Ringkasan",
+    "totalSwaps": "Hitungan Total Pertukaran:",
+    "totalSends": "Total jumlah pengiriman:",
+    "amountPrefix": "Jumlah:",
+    "transactionFormat": {
+      "swap": "+{jumlah} usdtz → {alamat}",
+      "send": "-{jumlah} usdtz → {alamat}",
+      "receive": "{jumlah} usdtz ← {alamat}",
+      "default": "{jumlah} usdtz"
+    },
+    "chartLabel": "Jumlah pertukaran",
+    "labelSwap": "Menukar:",
+    "labelSend": "Send:",
+    "labelAmount": "Jumlah:",
+    "detailsLink": "Detail",
+    "labelSwapPrefix": "Menukar:",
+    "labelSendPrefix": "Mengirim:",
+    "labelAmountPrefix": "Jumlah:",
+    "labelDate": "Tanggal:",
+    "swapDirection": "{from} → {to}",
+    "amountLine": "Jumlah: {Jumlah} USDTZ",
+    "labelWallet": "Dompet",
+    "walletIndex": "Wallet {index}",
+    "walletSelect": "Pilih Dompet",
+    "walletAdd": "+ Tambahkan dompet",
+    "walletAdded": "Dompet ditambahkan",
+    "walletInvalid": "Alamat dompet yang tidak valid",
+    "walletExists": "Dompet sudah ada",
+    "transactionSwap": "Swap: +{jumlah} usdtz → {token}",
+    "transactionSend": "Kirim: -{Jumlah} usdtz → {alamat}",
+    "transactionAmount": "Jumlah: {Jumlah} USDTZ"
+  },
+  "swap": {
+    "title": "Token Pertukaran",
+    "amountLabel": "Jumlah (USDTZ):",
+    "placeholder": "Masukkan Jumlah untuk Bertukar",
+    "targetTokenLabel": "Token target:",
+    "confirm": "Mengonfirmasi",
+    "close": "Menutup"
+  },
+  "receive": {
+    "title": "Menerima token"
+  },
+  "common": {
+    "close": "Menutup",
+    "copy": "Menyalin",
+    "cancel": "Membatalkan"
+  },
+  "transactionTypes": {
+    "swap": "Menukar",
+    "send": "Mengirim",
+    "receive": "Menerima"
+  },
+  "csv": {
+    "headers": {
+      "type": "Jenis",
+      "date": "Tanggal",
+      "time": "Waktu",
+      "amount": "Jumlah",
+      "targetToken": "Token target",
+      "address": "Alamat"
+    }
+  },
+  "languageSelector": {
+    "label": "Bahasa:"
+  },
+  "transactionDetails": {
+    "title": "Detail Transaksi",
+    "type": "Jenis",
+    "date": "Tanggal",
+    "amount": "Jumlah",
+    "targetToken": "Token target",
+    "recipient": "Penerima",
+    "sender": "Pengirim",
+    "empty": "Tidak tersedia"
+  },
+  "swapHistoryFilter": {
+    "filterByType": "Filter berdasarkan jenis transaksi",
+    "sortNewest": "Yang terbaru dulu",
+    "sortOldest": "Yang tertua dulu",
+    "startDate": "Tanggal mulai",
+    "endDate": "Tanggal akhir"
+  },
+  "addTokenButton": {
+    "label": "Tambahkan token",
+    "selectToken": "Pilih token untuk ditambahkan"
+  }
+}

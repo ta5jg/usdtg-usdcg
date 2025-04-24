@@ -1,0 +1,157 @@
+{
+  "wallet": {
+    "connected": "محفظة متصلة",
+    "notConnected": "محفظة غير متصلة",
+    "address": "عنوان محفظة متصل",
+    "notFound": "محفظة Web3 غير موجودة.",
+    "addTokenButton": "إضافة رمز",
+    "actions": "إجراءات المحفظة"
+  },
+  "header": {
+    "title": "محفظة USDTZ",
+    "description": "تجربة محفظة Web3 الآمنة والسريعة",
+    "connectWallet": "ربط المحفظة"
+  },
+  "actions": {
+    "send": "يرسل",
+    "receive": "يستلم",
+    "swap": "تبديل"
+  },
+  "tokenCard": {
+    "title": "توازنك",
+    "symbol": "USDTz",
+    "pricePer": "1 {token} =",
+    "livePrice": "1 {token} =",
+    "totalValue": "القيمة الإجمالية:"
+  },
+  "sendModal": {
+    "sendTokens": "إرسال الرموز",
+    "header": "إرسال الرموز",
+    "recipientAddress": "عنوان المستلم",
+    "amount": "كمية",
+    "amountLabel": "المبلغ (USDTZ):",
+    "amountPlaceholder": "أدخل المبلغ لإرساله",
+    "recipientLabel": "عنوان المستلم",
+    "recipientPlaceholder": "أدخل عنوان المحفظة",
+    "cancel": "يلغي",
+    "confirm": "يتأكد"
+  },
+  "receiveModal": {
+    "receiveTokens": "تلقي الرموز",
+    "yourAddress": "عنوانك",
+    "copy": "عنوان النسخ"
+  },
+  "swapModal": {
+    "swapTokens": "مبادلة الرموز",
+    "fromToken": "من الرمز المميز",
+    "toToken": "لرمز",
+    "amount": "كمية",
+    "cancel": "يلغي",
+    "confirm": "يتأكد"
+  },
+  "swapHistory": {
+    "title": "تاريخ المعاملة",
+    "empty": "لا مقايضات بعد.",
+    "clear": "تاريخ واضح",
+    "download": "تنزيل XLSX",
+    "filterByType": "تصفية حسب النوع",
+    "allTypes": "جميع الأنواع",
+    "send": "يرسل",
+    "receive": "يستلم",
+    "swap": "تبديل",
+    "clearHistory": "تاريخ واضح",
+    "sortNewest": "أحدث أولا",
+    "sortOldest": "الأقدم الأول",
+    "all": "الجميع",
+    "details": "تفاصيل",
+    "startDate": "تاريخ البدء",
+    "endDate": "تاريخ الانتهاء",
+    "searchPlaceholder": "ابحث بالمبلغ أو العنوان أو التاريخ",
+    "summary": "ملخص",
+    "totalSwaps": "إجمالي عدد المبادلة:",
+    "totalSends": "إجمالي الإرسال عدد:",
+    "amountPrefix": "كمية:",
+    "transactionFormat": {
+      "swap": "+{come} USDTZ → {address}",
+      "send": "-{المبلغ} USDTZ → {address}",
+      "receive": "{المبلغ} USDTZ ← {address}",
+      "default": "{المبلغ} USDTZ"
+    },
+    "chartLabel": "مبلغ المبادلة",
+    "labelSwap": "تبديل:",
+    "labelSend": "يرسل:",
+    "labelAmount": "كمية:",
+    "detailsLink": "تفاصيل",
+    "labelSwapPrefix": "تبديل:",
+    "labelSendPrefix": "يرسل:",
+    "labelAmountPrefix": "كمية:",
+    "labelDate": "تاريخ:",
+    "swapDirection": "{من} → {إلى}",
+    "amountLine": "المبلغ: {المبلغ} USDTZ",
+    "labelWallet": "محفظة",
+    "walletIndex": "محفظة {index}",
+    "walletSelect": "حدد محفظة",
+    "walletAdd": "+ إضافة محفظة",
+    "walletAdded": "Wallet Added",
+    "walletInvalid": "عنوان محفظة غير صالح",
+    "walletExists": "محفظة موجودة بالفعل",
+    "transactionSwap": "SWAP: +{come} USDTZ → {token}",
+    "transactionSend": "Send: -{cause} USDTZ → {address}",
+    "transactionAmount": "المبلغ: {المبلغ} USDTZ"
+  },
+  "swap": {
+    "title": "مبادلة الرموز",
+    "amountLabel": "المبلغ (USDTZ):",
+    "placeholder": "أدخل المبلغ إلى المبادلة",
+    "targetTokenLabel": "الرمز المستهدف:",
+    "confirm": "يتأكد",
+    "close": "يغلق"
+  },
+  "receive": {
+    "title": "تلقي الرموز"
+  },
+  "common": {
+    "close": "يغلق",
+    "copy": "ينسخ",
+    "cancel": "يلغي"
+  },
+  "transactionTypes": {
+    "swap": "تبديل",
+    "send": "يرسل",
+    "receive": "يستلم"
+  },
+  "csv": {
+    "headers": {
+      "type": "يكتب",
+      "date": "تاريخ",
+      "time": "وقت",
+      "amount": "كمية",
+      "targetToken": "رمز الهدف",
+      "address": "عنوان"
+    }
+  },
+  "languageSelector": {
+    "label": "لغة:"
+  },
+  "transactionDetails": {
+    "title": "تفاصيل المعاملة",
+    "type": "يكتب",
+    "date": "تاريخ",
+    "amount": "كمية",
+    "targetToken": "رمز الهدف",
+    "recipient": "متلقي",
+    "sender": "مرسل",
+    "empty": "غير متوفر"
+  },
+  "swapHistoryFilter": {
+    "filterByType": "تصفية حسب نوع المعاملة",
+    "sortNewest": "أحدث أولا",
+    "sortOldest": "الأقدم الأول",
+    "startDate": "تاريخ البدء",
+    "endDate": "تاريخ الانتهاء"
+  },
+  "addTokenButton": {
+    "label": "إضافة رمز",
+    "selectToken": "حدد رمزًا لإضافة"
+  }
+}

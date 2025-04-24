@@ -117,4 +117,8 @@ https://ipfs.io/ipfs/QmRcu4HB7WMCiSjWTtZ8WEjLERbV5RnSz6PxNG5ctorxbA
 
 ---
 
+[İmzalı Audit Raporu](audit/USDCg_Audit_Report_Signed.pdf)
+
+---
+
 More translations and updates coming soon.

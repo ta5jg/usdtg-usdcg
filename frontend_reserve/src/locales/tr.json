@@ -1,0 +1,157 @@
+{
+  "wallet": {
+    "connected": "Cüzdan Bağlı",
+    "notConnected": "Cüzdan bağlı değil",
+    "address": "Bağlı Cüzdan Adresi",
+    "notFound": "Web3 cüzdan bulunamadı.",
+    "addTokenButton": "Jeton ekle",
+    "actions": "Cüzdan Eylemleri"
+  },
+  "header": {
+    "title": "USDTZ Cüzdan",
+    "description": "Güvenli ve Hızlı Web3 Cüzdan Deneyimi",
+    "connectWallet": "Cüzdan Bağlayın"
+  },
+  "actions": {
+    "send": "Göndermek",
+    "receive": "Almak",
+    "swap": "Takas"
+  },
+  "tokenCard": {
+    "title": "Cüzdan Bakiyesi",
+    "symbol": "USDTz",
+    "pricePer": "1 {token} =",
+    "livePrice": "1 {token} =",
+    "totalValue": "Toplam Değer:"
+  },
+  "sendModal": {
+    "sendTokens": "Jeton gönder",
+    "header": "Jeton gönder",
+    "recipientAddress": "Alıcı adresi",
+    "amount": "Miktar",
+    "amountLabel": "Miktar (USDTZ):",
+    "amountPlaceholder": "Gönderilecek Miktar Girin",
+    "recipientLabel": "Alıcı adresi",
+    "recipientPlaceholder": "Cüzdan adresini girin",
+    "cancel": "İptal etmek",
+    "confirm": "Onaylamak"
+  },
+  "receiveModal": {
+    "receiveTokens": "Jeton al",
+    "yourAddress": "Adresiniz",
+    "copy": "Kopyala adresi"
+  },
+  "swapModal": {
+    "swapTokens": "Token takas",
+    "fromToken": "Jetondan",
+    "toToken": "Jetona",
+    "amount": "Miktar",
+    "cancel": "İptal etmek",
+    "confirm": "Onaylamak"
+  },
+  "swapHistory": {
+    "title": "İşlem geçmişi",
+    "empty": "Henüz takas yapılmadı.",
+    "clear": "Açık tarih",
+    "download": "XLSX'i indir",
+    "filterByType": "Türüne göre filtre",
+    "allTypes": "Tüm Türler",
+    "send": "Göndermek",
+    "receive": "Almak",
+    "swap": "Takas",
+    "clearHistory": "Açık tarih",
+    "sortNewest": "En yeni ilk",
+    "sortOldest": "En eski ilk",
+    "all": "Tüm",
+    "details": "Detaylar",
+    "startDate": "Başlangıç ​​Tarihi",
+    "endDate": "Bitiş tarihi",
+    "searchPlaceholder": "Miktara, adrese veya tarihe göre arayın",
+    "summary": "Özet",
+    "totalSwaps": "Toplam takas sayısı:",
+    "totalSends": "Toplam Gönder Sayısı:",
+    "amountPrefix": "Miktar:",
+    "transactionFormat": {
+      "swap": "+{miktar} usdtz → {adres}",
+      "send": "-{miktar} usdtz → {adres}",
+      "receive": "{miktar} usdtz ← {adres}",
+      "default": "{miktar} USDTZ"
+    },
+    "chartLabel": "Takas Miktarı",
+    "labelSwap": "Takas:",
+    "labelSend": "Göndermek:",
+    "labelAmount": "Miktar:",
+    "detailsLink": "Detaylar",
+    "labelSwapPrefix": "Takas:",
+    "labelSendPrefix": "Göndermek:",
+    "labelAmountPrefix": "Miktar:",
+    "labelDate": "Tarih:",
+    "swapDirection": "{from} → {to}",
+    "amountLine": "Miktar: {miktar} USDTZ",
+    "labelWallet": "Cüzdan",
+    "walletIndex": "Cüzdan {index}",
+    "walletSelect": "Cüzdan seçin",
+    "walletAdd": "+ Cüzdan ekle",
+    "walletAdded": "Cüzdan eklendi",
+    "walletInvalid": "Geçersiz cüzdan adresi",
+    "walletExists": "Cüzdan zaten var",
+    "transactionSwap": "Takas: +{miktar} USDTZ → {jeton}",
+    "transactionSend": "Gönder: -{miktar} USDTZ → {Adres}",
+    "transactionAmount": "Miktar: {miktar} USDTZ"
+  },
+  "swap": {
+    "title": "Token takas",
+    "amountLabel": "Miktar (USDTZ):",
+    "placeholder": "Takas için Miktar Girin",
+    "targetTokenLabel": "Hedef jeton:",
+    "confirm": "Onaylamak",
+    "close": "Kapalı"
+  },
+  "receive": {
+    "title": "Jeton al"
+  },
+  "common": {
+    "close": "Kapalı",
+    "copy": "Kopya",
+    "cancel": "İptal"
+  },
+  "transactionTypes": {
+    "swap": "Takas",
+    "send": "Gönderme",
+    "receive": "Alma"
+  },
+  "csv": {
+    "headers": {
+      "type": "Tip",
+      "date": "Tarih",
+      "time": "Zaman",
+      "amount": "Miktar",
+      "targetToken": "Hedef Jeton",
+      "address": "Adres"
+    }
+  },
+  "languageSelector": {
+    "label": "Dil:"
+  },
+  "transactionDetails": {
+    "title": "İşlem detayları",
+    "type": "Tip",
+    "date": "Tarih",
+    "amount": "Miktar",
+    "targetToken": "Hedef jeton",
+    "recipient": "Alıcı",
+    "sender": "Gönderen kimse",
+    "empty": "Müsait değil"
+  },
+  "swapHistoryFilter": {
+    "filterByType": "İşlem Türüne Göre Filtre",
+    "sortNewest": "En yeni ilk",
+    "sortOldest": "En eski ilk",
+    "startDate": "Başlangıç ​​Tarihi",
+    "endDate": "Bitiş tarihi"
+  },
+  "addTokenButton": {
+    "label": "+ Jeton Ekle",
+    "selectToken": "Eklemek için bir jeton seçin"
+  }
+}

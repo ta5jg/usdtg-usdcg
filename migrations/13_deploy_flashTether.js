@@ -1,4 +1,4 @@
-const FlashTetherTRC20 = artifacts.require("FlashTetherTRC20");
+const TetherGround USD = artifacts.require("TetherGround USD");
 
 module.exports = async function (deployer, network, accounts) {
   
@@ -8,9 +8,9 @@ module.exports = async function (deployer, network, accounts) {
   const usdcAddress = process.env.USDC_ADDRESS; // gerçek USDC adresi gir
   const router = process.env.JM_ROUTER; // JustMoney router adresi
 
-  console.log("🚀 Deploying FlashTetherTRC20...");
-  await deployer.deploy(FlashTetherTRC20, feeWallet, usdtAddress, usdcAddress, router);
-  const instance = await FlashTetherTRC20.deployed();
+  console.log("🚀 Deploying TetherGround USD...");
+  await deployer.deploy(USDTgTokenTRC20, feeWallet, usdtAddress, usdcAddress, router);
+  const instance = await USDTgTokenTRC20.deployed();
 
   console.log("✅ Deployed at:", instance.address);
 };

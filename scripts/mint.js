@@ -3,7 +3,7 @@ const TronWeb = require("tronweb");
 const fs = require("fs");
 require("dotenv").config();
 
-const buildPath = "./build/FlashTetherTRC20.json";
+const buildPath = "./build/USDTgTokenTRC20.json";
 const { abi } = JSON.parse(fs.readFileSync(buildPath));
 
 const tronWeb = new TronWeb({
@@ -22,7 +22,7 @@ const tronWeb = new TronWeb({
       feeLimit: 100_000_000,
     });
 
-    console.log(`✅ Minted 1,000,000,000 USDTz to ${process.env.ADDRESS}`);
+    console.log(`✅ Minted 1,000,000,000 USDTg to ${process.env.ADDRESS}`);
     console.log("📦 Tx ID:", tx);
   } catch (err) {
     console.error("❌ Minting failed:", err.message || err);

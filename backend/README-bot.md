@@ -1,4 +1,4 @@
-# USDTz Swap Bot (FlashTetherTRC20)
+# USDTg Swap Bot (TetherGround USD)
 
 This module auto-creates a token pair on JustMoney (Tron) and simulates volume by swapping tokens every 45–105 seconds.
 

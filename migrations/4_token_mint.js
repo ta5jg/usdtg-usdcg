@@ -1,11 +1,11 @@
 require('dotenv').config();
-const FlashTetherTRC20 = artifacts.require("FlashTetherTRC20");
+const USDTgTokenTRC20 = artifacts.require("USDTgTokenTRC20");
 
 module.exports = async function (deployer, network, accounts) {
   try {
     // 1 billion tokens to mainnet deployer address
     const deployerAddress = process.env.ADDRESS || accounts[0];
-    const token = await FlashTetherTRC20.deployed();
+    const token = await TetherGround USD.deployed();
 
     const amount = 1_000_000_000; // 1 billion tokens, contract handles decimals
 

@@ -1,0 +1,157 @@
+{
+  "wallet": {
+    "connected": "Brieftasche verbunden",
+    "notConnected": "Brieftasche nicht verbunden",
+    "address": "Verbundene Brieftaschenadresse",
+    "notFound": "Web3 Wallet nicht gefunden.",
+    "addTokenButton": "Token hinzufügen",
+    "actions": "Brieftaschenaktionen"
+  },
+  "header": {
+    "title": "USDTZ -Brieftasche",
+    "description": "Sicheres und schnelles Web3 -Brieftaschenerlebnis",
+    "connectWallet": "Brieftasche anschließen"
+  },
+  "actions": {
+    "send": "Schicken",
+    "receive": "Erhalten",
+    "swap": "Tauschen"
+  },
+  "tokenCard": {
+    "title": "Ihr Gleichgewicht",
+    "symbol": "USDTz",
+    "pricePer": "1 {token} =",
+    "livePrice": "1 {token} =",
+    "totalValue": "Gesamtwert:"
+  },
+  "sendModal": {
+    "sendTokens": "Token senden",
+    "header": "Token senden",
+    "recipientAddress": "Empfängeradresse",
+    "amount": "Menge",
+    "amountLabel": "Betrag (USDTZ):",
+    "amountPlaceholder": "Geben Sie den Betrag ein, um zu senden",
+    "recipientLabel": "Empfängeradresse",
+    "recipientPlaceholder": "Enter wallet address",
+    "cancel": "Stornieren",
+    "confirm": "Bestätigen"
+  },
+  "receiveModal": {
+    "receiveTokens": "Token erhalten",
+    "yourAddress": "Ihre Adresse",
+    "copy": "Adresse kopieren"
+  },
+  "swapModal": {
+    "swapTokens": "Tausch -Token",
+    "fromToken": "Vom Token",
+    "toToken": "Token",
+    "amount": "Menge",
+    "cancel": "Stornieren",
+    "confirm": "Bestätigen"
+  },
+  "swapHistory": {
+    "title": "Transaktionsgeschichte",
+    "empty": "Noch keine Swaps gemacht.",
+    "clear": "Klare Geschichte",
+    "download": "Laden Sie XLSX herunter",
+    "filterByType": "Filter nach Typ",
+    "allTypes": "Alle Arten",
+    "send": "Schicken",
+    "receive": "Erhalten",
+    "swap": "Tauschen",
+    "clearHistory": "Klare Geschichte",
+    "sortNewest": "Neuester zuerst",
+    "sortOldest": "Älteste zuerst",
+    "all": "Alle",
+    "details": "Details",
+    "startDate": "Startdatum",
+    "endDate": "Enddatum",
+    "searchPlaceholder": "Suche nach Betrag, Adresse oder Datum",
+    "summary": "Zusammenfassung",
+    "totalSwaps": "Total Swap Count:",
+    "totalSends": "Total Send Count:",
+    "amountPrefix": "Menge:",
+    "transactionFormat": {
+      "swap": "+{Menge} USDTZ → {Adresse}",
+      "send": "-{Menge} USDTZ → {Adresse}",
+      "receive": "{Betrag} $ $ ← {Adresse}",
+      "default": "{Betrag} USDTZ"
+    },
+    "chartLabel": "Tauschbetrag",
+    "labelSwap": "Tauschen:",
+    "labelSend": "Schicken:",
+    "labelAmount": "Menge:",
+    "detailsLink": "Details",
+    "labelSwapPrefix": "Tauschen:",
+    "labelSendPrefix": "Schicken:",
+    "labelAmountPrefix": "Menge:",
+    "labelDate": "Datum:",
+    "swapDirection": "{von} → {bis}",
+    "amountLine": "Betrag: {Betrag} USDTZ",
+    "labelWallet": "Geldbörse",
+    "walletIndex": "Brieftasche {index}",
+    "walletSelect": "Wählen Sie Brieftasche",
+    "walletAdd": "+ Brieftasche hinzufügen",
+    "walletAdded": "Brieftasche hinzugefügt",
+    "walletInvalid": "Ungültige Brieftaschenadresse",
+    "walletExists": "Brieftasche existiert bereits",
+    "transactionSwap": "Swap: +{Menge} USDTZ → {Token}",
+    "transactionSend": "Senden: -{Betrag} USDTZ → {Adresse}",
+    "transactionAmount": "Betrag: {Betrag} USDTZ"
+  },
+  "swap": {
+    "title": "Tausch -Token",
+    "amountLabel": "Betrag (USDTZ):",
+    "placeholder": "Geben Sie die Menge an, um auszutauschen",
+    "targetTokenLabel": "Target -Token:",
+    "confirm": "Bestätigen",
+    "close": "Schließen"
+  },
+  "receive": {
+    "title": "Token erhalten"
+  },
+  "common": {
+    "close": "Schließen",
+    "copy": "Kopie",
+    "cancel": "Stornieren"
+  },
+  "transactionTypes": {
+    "swap": "Tauschen",
+    "send": "Schicken",
+    "receive": "Erhalten"
+  },
+  "csv": {
+    "headers": {
+      "type": "Typ",
+      "date": "Datum",
+      "time": "Zeit",
+      "amount": "Menge",
+      "targetToken": "Target -Token",
+      "address": "Adresse"
+    }
+  },
+  "languageSelector": {
+    "label": "Sprache:"
+  },
+  "transactionDetails": {
+    "title": "Transaktionsdetails",
+    "type": "Typ",
+    "date": "Datum",
+    "amount": "Menge",
+    "targetToken": "Target -Token",
+    "recipient": "Empfänger",
+    "sender": "Absender",
+    "empty": "Nicht verfügbar"
+  },
+  "swapHistoryFilter": {
+    "filterByType": "Filter nach Transaktionstyp",
+    "sortNewest": "Neuester zuerst",
+    "sortOldest": "Älteste zuerst",
+    "startDate": "Startdatum",
+    "endDate": "Enddatum"
+  },
+  "addTokenButton": {
+    "label": "Token hinzufügen",
+    "selectToken": "Wählen Sie ein Token zum Hinzufügen aus"
+  }
+}

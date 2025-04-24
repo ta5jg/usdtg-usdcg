@@ -5,7 +5,7 @@ dotenv.config();
 const {
   PRIVATE_KEY,
   ADDRESS,
-  CONTRACT_USDTZ,
+  CONTRACT_USDTg,
   CONTRACT_TRX,
   JM_ROUTER,
 } = process.env;
@@ -17,20 +17,20 @@ const tronWeb = new TronWeb({
 
 async function createPair() {
   const router = await tronWeb.contract().at(JM_ROUTER);
-  const tx = await router.createPair(CONTRACT_USDTZ, CONTRACT_TRX).send();
+  const tx = await router.createPair(CONTRACT_USDTg, CONTRACT_TRX).send();
   console.log("✅ Pair created:", tx);
 }
 
 async function swapVolume() {
   const router = await tronWeb.contract().at(JM_ROUTER);
-  const amountIn = tronWeb.toSun("5"); // 5 USDTz or whatever you're swapping
+  const amountIn = tronWeb.toSun("5"); // 5 USDTg or whatever you're swapping
 
   try {
     const tx = await router
       .swapExactTokensForTokens(
         amountIn,
         0,
-        [CONTRACT_USDTZ, CONTRACT_TRX],
+        [CONTRACT_USDTg, CONTRACT_TRX],
         ADDRESS,
         Math.floor(Date.now() / 1000) + 60
       )

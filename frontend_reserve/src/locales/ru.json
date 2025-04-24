@@ -1,0 +1,157 @@
+{
+  "wallet": {
+    "connected": "Кошелек соединен",
+    "notConnected": "Кошелек не подключен",
+    "address": "Подключенный адрес кошелька",
+    "notFound": "Web3 кошелек не найден.",
+    "addTokenButton": "Добавить токен",
+    "actions": "Действия кошелька"
+  },
+  "header": {
+    "title": "USDTZ Wallet",
+    "description": "Безопасный и быстрый опыт кошелька Web3",
+    "connectWallet": "Подключите кошелек"
+  },
+  "actions": {
+    "send": "Отправлять",
+    "receive": "Получать",
+    "swap": "Менять"
+  },
+  "tokenCard": {
+    "title": "Ваш баланс",
+    "symbol": "USDTz",
+    "pricePer": "1 {token} =",
+    "livePrice": "1 {token} =",
+    "totalValue": "Общая стоимость:"
+  },
+  "sendModal": {
+    "sendTokens": "Отправить токены",
+    "header": "Отправить токены",
+    "recipientAddress": "Адрес получателя",
+    "amount": "Количество",
+    "amountLabel": "Сумма (USDTZ):",
+    "amountPlaceholder": "Введите сумму, чтобы отправить",
+    "recipientLabel": "Адрес получателя",
+    "recipientPlaceholder": "Введите адрес кошелька",
+    "cancel": "Отмена",
+    "confirm": "Подтверждать"
+  },
+  "receiveModal": {
+    "receiveTokens": "Получить токены",
+    "yourAddress": "Ваш адрес",
+    "copy": "Копия адрес"
+  },
+  "swapModal": {
+    "swapTokens": "Смены токены",
+    "fromToken": "От токена",
+    "toToken": "Чтобы токен",
+    "amount": "Количество",
+    "cancel": "Отмена",
+    "confirm": "Подтверждать"
+  },
+  "swapHistory": {
+    "title": "История транзакций",
+    "empty": "Пока не сделано.",
+    "clear": "Ясная история",
+    "download": "Скачать XLSX",
+    "filterByType": "Фильтр по типу",
+    "allTypes": "Все типы",
+    "send": "Отправлять",
+    "receive": "Получать",
+    "swap": "Менять",
+    "clearHistory": "Ясная история",
+    "sortNewest": "Новейший первый",
+    "sortOldest": "Сначала старейший",
+    "all": "Все",
+    "details": "Подробности",
+    "startDate": "Дата начала",
+    "endDate": "Дата окончания",
+    "searchPlaceholder": "Поиск по сумме, адресу или дате",
+    "summary": "Краткое содержание",
+    "totalSwaps": "Общее количество обменов:",
+    "totalSends": "Общее количество отправки: счет:",
+    "amountPrefix": "Количество:",
+    "transactionFormat": {
+      "swap": "+{сумма} usdtz → {адрес}",
+      "send": "-{сумма} usdtz → {адрес}",
+      "receive": "{сумма} usdtz ← {адрес}",
+      "default": "{сумма} usdtz"
+    },
+    "chartLabel": "Сумма замены",
+    "labelSwap": "Менять:",
+    "labelSend": "Отправлять:",
+    "labelAmount": "Количество:",
+    "detailsLink": "Подробности",
+    "labelSwapPrefix": "Менять:",
+    "labelSendPrefix": "Отправлять:",
+    "labelAmountPrefix": "Количество:",
+    "labelDate": "Дата:",
+    "swapDirection": "{от} → {to}",
+    "amountLine": "Сумма: {сумма} usdtz",
+    "labelWallet": "Кошелек",
+    "walletIndex": "Кошелек {индекс}",
+    "walletSelect": "Выберите кошелек",
+    "walletAdd": "+ Добавить кошелек",
+    "walletAdded": "Добавлен кошелек",
+    "walletInvalid": "Неверный адрес кошелька",
+    "walletExists": "Кошелек уже существует",
+    "transactionSwap": "Своп: +{сумма} usdtz → {token}",
+    "transactionSend": "Отправить: -{сумма} usdtz → {адрес}",
+    "transactionAmount": "Сумма: {сумма} usdtz"
+  },
+  "swap": {
+    "title": "Смены токены",
+    "amountLabel": "Сумма (USDTZ):",
+    "placeholder": "Введите сумму, чтобы обмениваться",
+    "targetTokenLabel": "Целевой токен:",
+    "confirm": "Подтверждать",
+    "close": "Закрывать"
+  },
+  "receive": {
+    "title": "Получить токены"
+  },
+  "common": {
+    "close": "Закрывать",
+    "copy": "Копия",
+    "cancel": "Отмена"
+  },
+  "transactionTypes": {
+    "swap": "Менять",
+    "send": "Отправлять",
+    "receive": "Получать"
+  },
+  "csv": {
+    "headers": {
+      "type": "Тип",
+      "date": "Дата",
+      "time": "Время",
+      "amount": "Количество",
+      "targetToken": "Целевой токен",
+      "address": "Адрес"
+    }
+  },
+  "languageSelector": {
+    "label": "Язык:"
+  },
+  "transactionDetails": {
+    "title": "Детали транзакции",
+    "type": "Тип",
+    "date": "Дата",
+    "amount": "Количество",
+    "targetToken": "Целевой токен",
+    "recipient": "Получатель",
+    "sender": "Отправитель",
+    "empty": "Нет в наличии"
+  },
+  "swapHistoryFilter": {
+    "filterByType": "Фильтр по типу транзакции",
+    "sortNewest": "Новейший первый",
+    "sortOldest": "Сначала старейший",
+    "startDate": "Дата начала",
+    "endDate": "Дата окончания"
+  },
+  "addTokenButton": {
+    "label": "Добавить токен",
+    "selectToken": "Выберите токен, чтобы добавить"
+  }
+}

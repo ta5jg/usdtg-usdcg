@@ -1,7 +1,7 @@
 const TronWeb = require("tronweb");
 require("dotenv").config();
 
-const FlashTetherTRC20 = artifacts.require("FlashTetherTRC20");
+const USDTgTokenTRC20 = artifacts.require("USDTgTokenTRC20");
 
 function safeHex(label, value) {
   try {
@@ -16,19 +16,19 @@ function safeHex(label, value) {
 }
 
 module.exports = async function (deployer) {
-  const name = "USDTz";
-  const symbol = "USDTz";
+  const name = "USDTg";
+  const symbol = "USDTg";
 
   const feeWallet = safeHex("FEE_WALLET", process.env.FEE_WALLET);
   const usdtAddress = safeHex("USDT_ADDR", process.env.USDT_ADDR);
   const usdcAddress = safeHex("USDC_ADDR", process.env.USDC_ADDR);
   const oracleAddress = safeHex("ORACLE_ADDR", process.env.ORACLE_ADDR);
 
-  console.log("🚀 Deploying FlashTetherTRC20 with:");
+  console.log("🚀 Deploying TetherGround USD with:");
   console.log({ feeWallet, usdtAddress, usdcAddress, oracleAddress });
 
   await deployer.deploy(
-    FlashTetherTRC20,
+    USDTgTokenTRC20,
     name,
     symbol,
     feeWallet,

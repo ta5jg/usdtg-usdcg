@@ -1,0 +1,157 @@
+{
+  "wallet": {
+    "connected": "Portefeuille connecté",
+    "notConnected": "Portefeuille non connecté",
+    "address": "Adresse du portefeuille connecté",
+    "notFound": "Portefeuille web3 introuvable.",
+    "addTokenButton": "Ajouter un jeton",
+    "actions": "Actions de portefeuille"
+  },
+  "header": {
+    "title": "Portefeuille USDTZ",
+    "description": "Expérience de portefeuille Web3 sécurisé et rapide",
+    "connectWallet": "Portefeuille de connexion"
+  },
+  "actions": {
+    "send": "Envoyer",
+    "receive": "Recevoir",
+    "swap": "Échanger"
+  },
+  "tokenCard": {
+    "title": "Votre équilibre",
+    "symbol": "USDTz",
+    "pricePer": "1 {token} =",
+    "livePrice": "1 {token} =",
+    "totalValue": "Valeur totale:"
+  },
+  "sendModal": {
+    "sendTokens": "Envoyer des jetons",
+    "header": "Envoyer des jetons",
+    "recipientAddress": "Adresse du destinataire",
+    "amount": "Montant",
+    "amountLabel": "Montant (USDTZ):",
+    "amountPlaceholder": "Entrez le montant à envoyer",
+    "recipientLabel": "Adresse du destinataire",
+    "recipientPlaceholder": "Entrez l'adresse du portefeuille",
+    "cancel": "Annuler",
+    "confirm": "Confirmer"
+  },
+  "receiveModal": {
+    "receiveTokens": "Recevoir des jetons",
+    "yourAddress": "Votre adresse",
+    "copy": "Copier l'adresse"
+  },
+  "swapModal": {
+    "swapTokens": "Tokens d'échange",
+    "fromToken": "De jeton",
+    "toToken": "Token",
+    "amount": "Montant",
+    "cancel": "Annuler",
+    "confirm": "Confirmer"
+  },
+  "swapHistory": {
+    "title": "Historique des transactions",
+    "empty": "Aucun échange n'est encore fait.",
+    "clear": "Histoire claire",
+    "download": "Télécharger xlsx",
+    "filterByType": "Filtre par type",
+    "allTypes": "Tous types",
+    "send": "Envoyer",
+    "receive": "Recevoir",
+    "swap": "Échanger",
+    "clearHistory": "Histoire claire",
+    "sortNewest": "Le plus récent premier",
+    "sortOldest": "Le plus ancien premier",
+    "all": "Tous",
+    "details": "Détails",
+    "startDate": "Date de début",
+    "endDate": "Date de fin",
+    "searchPlaceholder": "Recherche par montant, adresse ou date",
+    "summary": "Résumé",
+    "totalSwaps": "Compte d'échange total:",
+    "totalSends": "Nombre d'envoi total:",
+    "amountPrefix": "Montant:",
+    "transactionFormat": {
+      "swap": "+ {montant} usdtz → {adresse}",
+      "send": "- {montant} usdtz → {adresse}",
+      "receive": "{montant} usdtz ← {adresse}",
+      "default": "{montant} USDTZ"
+    },
+    "chartLabel": "Montant de l'échange",
+    "labelSwap": "Échanger:",
+    "labelSend": "Envoyer:",
+    "labelAmount": "Montant:",
+    "detailsLink": "Détails",
+    "labelSwapPrefix": "Échanger:",
+    "labelSendPrefix": "Envoyer:",
+    "labelAmountPrefix": "Montant:",
+    "labelDate": "Date:",
+    "swapDirection": "{de} → {à}",
+    "amountLine": "Montant: {Montant} USDTZ",
+    "labelWallet": "Portefeuille",
+    "walletIndex": "Portefeuille {index}",
+    "walletSelect": "Sélectionner le portefeuille",
+    "walletAdd": "+ Ajouter le portefeuille",
+    "walletAdded": "Portefeuille ajouté",
+    "walletInvalid": "Adresse du portefeuille non valide",
+    "walletExists": "Le portefeuille existe déjà",
+    "transactionSwap": "Swap: + {montant} usdtz → {token}",
+    "transactionSend": "Envoyer: - {montant} usdtz → {adresse}",
+    "transactionAmount": "Montant: {Montant} USDTZ"
+  },
+  "swap": {
+    "title": "Tokens d'échange",
+    "amountLabel": "Montant (USDTZ):",
+    "placeholder": "Entrez le montant pour échanger",
+    "targetTokenLabel": "Jeton cible:",
+    "confirm": "Confirmer",
+    "close": "Fermer"
+  },
+  "receive": {
+    "title": "Recevoir des jetons"
+  },
+  "common": {
+    "close": "Fermer",
+    "copy": "Copie",
+    "cancel": "Annuler"
+  },
+  "transactionTypes": {
+    "swap": "Échanger",
+    "send": "Envoyer",
+    "receive": "Recevoir"
+  },
+  "csv": {
+    "headers": {
+      "type": "Taper",
+      "date": "Date",
+      "time": "Temps",
+      "amount": "Montant",
+      "targetToken": "Jeton cible",
+      "address": "Adresse"
+    }
+  },
+  "languageSelector": {
+    "label": "Langue:"
+  },
+  "transactionDetails": {
+    "title": "Détails de la transaction",
+    "type": "Taper",
+    "date": "Date",
+    "amount": "Montant",
+    "targetToken": "Jeton cible",
+    "recipient": "Destinataire",
+    "sender": "Expéditeur",
+    "empty": "Pas disponible"
+  },
+  "swapHistoryFilter": {
+    "filterByType": "Filtre par type de transaction",
+    "sortNewest": "Le plus récent premier",
+    "sortOldest": "Le plus ancien premier",
+    "startDate": "Date de début",
+    "endDate": "Date de fin"
+  },
+  "addTokenButton": {
+    "label": "Ajouter un jeton",
+    "selectToken": "Sélectionnez un jeton pour ajouter"
+  }
+}

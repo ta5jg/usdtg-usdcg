@@ -1,8 +1,8 @@
-import TronWeb from "tronweb";
+import {TronWeb} from "tronweb";
 import dotenv from "dotenv";
 dotenv.config();
 
-const { PRIVATE_KEY, ROUTER_ADDR, TOKEN_A, TOKEN_B, WALLET } = process.env;
+const { PRIVATE_KEY, ROUTER_CONTRACT, TOKEN_A, TOKEN_B, WALLET } = process.env;
 
 const tronWeb = new TronWeb({
   fullHost: "https://api.trongrid.io",
@@ -10,10 +10,10 @@ const tronWeb = new TronWeb({
 });
 
 async function addLiquidity() {
-  const router = await tronWeb.contract().at(ROUTER_ADDR);
+  const router = await tronWeb.contract().at(ROUTER_CONTRACT);
 
-  const amountADesired = tronWeb.toSun("100"); // 100 USDTz
-  const amountBDesired = tronWeb.toSun("100"); // 100 TRX (or USDT)
+  const amountADesired = tronWeb.toSun("50"); // 5 USDTg
+  const amountBDesired = tronWeb.toSun("220"); // 5 USDT
   const deadline = Math.floor(Date.now() / 1000) + 600;
 
   const tx = await router

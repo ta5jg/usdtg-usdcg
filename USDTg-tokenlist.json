@@ -1,0 +1,25 @@
+{
+  "address": "TEpGiLGNB7W9W26LbvtU9wdukrLgLZwFgr",
+  "symbol": "USDTg",
+  "name": "TetherGround USD",
+  "decimals": 6,
+  "logoURI": "https://ipfs.io/ipfs/QmRcu4HB7WMCiSjWTtZ8WEjLERbV5RnSz6PxNG5ctorxbA/Logo_USDTg.webp",
+  "homepage": "https://usdtg.net",
+  "MarketCapLink": "https://www.coingecko.com/en/coins/usdtg",
+  "existingMarkets": [
+    {
+      "source": "JustMoney",
+      "pairs": [
+        "USDTg/USDT",
+        "USDTg/TRX"
+      ]
+    },
+    {
+      "source": "SunSwap V2",
+      "pairs": [
+        "USDTg/USDT",
+        "USDTg/TRX"
+      ]
+    }
+  ]
+}

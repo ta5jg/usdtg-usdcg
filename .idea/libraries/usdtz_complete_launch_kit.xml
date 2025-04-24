@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="usdtz-complete-launch-kit">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/usdtz-launch-kit/usdtz-complete-launch-kit.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

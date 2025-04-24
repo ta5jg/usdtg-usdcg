@@ -1,0 +1,157 @@
+{
+  "wallet": {
+    "connected": "钱包连接",
+    "notConnected": "钱包未连接",
+    "address": "连接的钱包地址",
+    "notFound": "找不到Web3钱包。",
+    "addTokenButton": "添加令牌",
+    "actions": "钱包动作"
+  },
+  "header": {
+    "title": "USDTZ钱包",
+    "description": "安全快速的Web3钱包经验",
+    "connectWallet": "连接钱包"
+  },
+  "actions": {
+    "send": "发送",
+    "receive": "收到",
+    "swap": "交换"
+  },
+  "tokenCard": {
+    "title": "你的平衡",
+    "symbol": "USDTz",
+    "pricePer": "1 {token} =",
+    "livePrice": "1 {token} =",
+    "totalValue": "总价值："
+  },
+  "sendModal": {
+    "sendTokens": "发送令牌",
+    "header": "发送令牌",
+    "recipientAddress": "收件人地址",
+    "amount": "数量",
+    "amountLabel": "金额（USDTZ）：",
+    "amountPlaceholder": "输入发送金额",
+    "recipientLabel": "收件人地址",
+    "recipientPlaceholder": "输入钱包地址",
+    "cancel": "取消",
+    "confirm": "确认"
+  },
+  "receiveModal": {
+    "receiveTokens": "接收令牌",
+    "yourAddress": "您的地址",
+    "copy": "复制地址"
+  },
+  "swapModal": {
+    "swapTokens": "交换令牌",
+    "fromToken": "来自令牌",
+    "toToken": "要代币",
+    "amount": "数量",
+    "cancel": "取消",
+    "confirm": "确认"
+  },
+  "swapHistory": {
+    "title": "交易历史记录",
+    "empty": "No swaps made yet.",
+    "clear": "清晰的历史",
+    "download": "下载XLSX",
+    "filterByType": "按类型过滤",
+    "allTypes": "所有类型",
+    "send": "发送",
+    "receive": "收到",
+    "swap": "交换",
+    "clearHistory": "清晰的历史",
+    "sortNewest": "最新的第一",
+    "sortOldest": "最古老的第一",
+    "all": "全部",
+    "details": "细节",
+    "startDate": "开始日期",
+    "endDate": "结束日期",
+    "searchPlaceholder": "按数量，地址或日期搜索",
+    "summary": "概括",
+    "totalSwaps": "总交换计数：",
+    "totalSends": "总发送计数：",
+    "amountPrefix": "数量：",
+    "transactionFormat": {
+      "swap": "+{量} usdtz→{address}",
+      "send": "-  {量} USDTZ→{address}",
+      "receive": "{量} USDTZ←{地址}",
+      "default": "{量} USDTZ"
+    },
+    "chartLabel": "交换金额",
+    "labelSwap": "交换：",
+    "labelSend": "发送：",
+    "labelAmount": "数量：",
+    "detailsLink": "细节",
+    "labelSwapPrefix": "交换：",
+    "labelSendPrefix": "发送：",
+    "labelAmountPrefix": "数量：",
+    "labelDate": "日期：",
+    "swapDirection": "{来自}→{到}",
+    "amountLine": "金额：{量} USDTZ",
+    "labelWallet": "钱包",
+    "walletIndex": "钱包{index}",
+    "walletSelect": "选择钱包",
+    "walletAdd": "+添加钱包",
+    "walletAdded": "钱包添加了",
+    "walletInvalid": "无效的钱包地址",
+    "walletExists": "钱包已经存在",
+    "transactionSwap": "交换： +{量} usdtz→{token}",
+    "transactionSend": "发送： -  {量} USDTZ→{地址}",
+    "transactionAmount": "金额：{量} USDTZ"
+  },
+  "swap": {
+    "title": "交换令牌",
+    "amountLabel": "金额（USDTZ）：",
+    "placeholder": "输入交换金额",
+    "targetTokenLabel": "目标令牌：",
+    "confirm": "确认",
+    "close": "关闭"
+  },
+  "receive": {
+    "title": "接收令牌"
+  },
+  "common": {
+    "close": "关闭",
+    "copy": "复制",
+    "cancel": "取消"
+  },
+  "transactionTypes": {
+    "swap": "交换",
+    "send": "发送",
+    "receive": "收到"
+  },
+  "csv": {
+    "headers": {
+      "type": "类型",
+      "date": "日期",
+      "time": "时间",
+      "amount": "数量",
+      "targetToken": "目标令牌",
+      "address": "地址"
+    }
+  },
+  "languageSelector": {
+    "label": "语言："
+  },
+  "transactionDetails": {
+    "title": "交易细节",
+    "type": "类型",
+    "date": "日期",
+    "amount": "数量",
+    "targetToken": "目标令牌",
+    "recipient": "接受者",
+    "sender": "发件人",
+    "empty": "无法使用"
+  },
+  "swapHistoryFilter": {
+    "filterByType": "通过交易类型过滤",
+    "sortNewest": "最新的第一",
+    "sortOldest": "最古老的第一",
+    "startDate": "开始日期",
+    "endDate": "结束日期"
+  },
+  "addTokenButton": {
+    "label": "添加令牌",
+    "selectToken": "选择一个令牌要添加"
+  }
+}

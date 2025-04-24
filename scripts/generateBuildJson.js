@@ -1,7 +1,7 @@
 import fs from "fs";
 
-const abi = JSON.parse(fs.readFileSync("build/contracts_FlashTetherTRC20_sol_FlashTetherTRC20.abi", "utf8"));
-const bytecodeRaw = fs.readFileSync("build/contracts_FlashTetherTRC20_sol_FlashTetherTRC20.bin", "utf8");
+const abi = JSON.parse(fs.readFileSync("build/contracts_TetherGround USD_sol_TetherGround USD.abi", "utf8"));
+const bytecodeRaw = fs.readFileSync("build/contracts_TetherGround USD_sol_TetherGround USD.bin", "utf8");
 const bytecode = "0x" + bytecodeRaw.trim();
 
 const output = {
@@ -9,5 +9,5 @@ const output = {
   bytecode,
 };
 
-fs.writeFileSync("build/FlashTetherTRC20.json", JSON.stringify(output, null, 2));
-console.log("✅ FlashTetherTRC20.json created in build/");
+fs.writeFileSync("build/TetherGround USD.json", JSON.stringify(output, null, 2));
+console.log("✅ TetherGround USD.json created in build/");

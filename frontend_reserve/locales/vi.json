@@ -1,0 +1,157 @@
+{
+  "wallet": {
+    "connected": "Ví kết nối",
+    "notConnected": "Ví không được kết nối",
+    "address": "Địa chỉ ví được kết nối",
+    "notFound": "Không tìm thấy ví Web3.",
+    "addTokenButton": "Thêm mã thông báo",
+    "actions": "Hành động ví"
+  },
+  "header": {
+    "title": "Ví USDTZ",
+    "description": "Trải nghiệm ví web3 an toàn và nhanh chóng",
+    "connectWallet": "Kết nối ví"
+  },
+  "actions": {
+    "send": "Gửi",
+    "receive": "Nhận được",
+    "swap": "Tráo đổi"
+  },
+  "tokenCard": {
+    "title": "Cân bằng của bạn",
+    "symbol": "USDTz",
+    "pricePer": "1 {token} =",
+    "livePrice": "1 {token} =",
+    "totalValue": "Tổng giá trị:"
+  },
+  "sendModal": {
+    "sendTokens": "Gửi mã thông báo",
+    "header": "Gửi mã thông báo",
+    "recipientAddress": "Địa chỉ người nhận",
+    "amount": "Số lượng",
+    "amountLabel": "Số tiền (USDTZ):",
+    "amountPlaceholder": "Nhập số tiền để gửi",
+    "recipientLabel": "Địa chỉ người nhận",
+    "recipientPlaceholder": "Nhập địa chỉ ví",
+    "cancel": "Hủy bỏ",
+    "confirm": "Xác nhận"
+  },
+  "receiveModal": {
+    "receiveTokens": "Nhận mã thông báo",
+    "yourAddress": "Địa chỉ của bạn",
+    "copy": "Địa chỉ sao chép"
+  },
+  "swapModal": {
+    "swapTokens": "Trao đổi mã thông báo",
+    "fromToken": "Từ mã thông báo",
+    "toToken": "Đến mã thông báo",
+    "amount": "Số lượng",
+    "cancel": "Hủy bỏ",
+    "confirm": "Xác nhận"
+  },
+  "swapHistory": {
+    "title": "Lịch sử giao dịch",
+    "empty": "Chưa có hoán đổi nào được thực hiện.",
+    "clear": "Lịch sử rõ ràng",
+    "download": "Tải xuống XLSX",
+    "filterByType": "Lọc theo loại",
+    "allTypes": "Tất cả các loại",
+    "send": "Gửi",
+    "receive": "Nhận được",
+    "swap": "Tráo đổi",
+    "clearHistory": "Lịch sử rõ ràng",
+    "sortNewest": "Mới nhất đầu tiên",
+    "sortOldest": "Lâu đời nhất đầu tiên",
+    "all": "Tất cả",
+    "details": "Chi tiết",
+    "startDate": "Ngày bắt đầu",
+    "endDate": "Ngày kết thúc",
+    "searchPlaceholder": "Tìm kiếm theo số lượng, địa chỉ hoặc ngày",
+    "summary": "Bản tóm tắt",
+    "totalSwaps": "Tổng số hoán đổi:",
+    "totalSends": "Tổng số lần gửi:",
+    "amountPrefix": "Số lượng:",
+    "transactionFormat": {
+      "swap": "+{số lượng} usdtz → {địa chỉ}",
+      "send": "-{số lượng} usdtz → {địa chỉ}",
+      "receive": "{số lượng} usdtz ← {địa chỉ}",
+      "default": "{số lượng} USDTZ"
+    },
+    "chartLabel": "Số tiền hoán đổi",
+    "labelSwap": "Tráo đổi:",
+    "labelSend": "Gửi:",
+    "labelAmount": "Số lượng:",
+    "detailsLink": "Chi tiết",
+    "labelSwapPrefix": "Tráo đổi:",
+    "labelSendPrefix": "Gửi:",
+    "labelAmountPrefix": "Số lượng:",
+    "labelDate": "Ngày:",
+    "swapDirection": "{từ} → {đến}",
+    "amountLine": "Số tiền: {số lượng} USDTZ",
+    "labelWallet": "Cái ví",
+    "walletIndex": "Ví {index}",
+    "walletSelect": "Chọn ví",
+    "walletAdd": "+ Thêm ví",
+    "walletAdded": "Ví được thêm vào",
+    "walletInvalid": "Địa chỉ ví không hợp lệ",
+    "walletExists": "Ví đã tồn tại",
+    "transactionSwap": "Hoán đổi: +{số lượng} USDTZ → {mã thông báo}",
+    "transactionSend": "Gửi: -{số lượng} usdtz → {địa chỉ}",
+    "transactionAmount": "Số tiền: {số lượng} USDTZ"
+  },
+  "swap": {
+    "title": "Trao đổi mã thông báo",
+    "amountLabel": "Số tiền (USDTZ):",
+    "placeholder": "Nhập số tiền để hoán đổi",
+    "targetTokenLabel": "Mã thông báo mục tiêu:",
+    "confirm": "Xác nhận",
+    "close": "Đóng"
+  },
+  "receive": {
+    "title": "Nhận mã thông báo"
+  },
+  "common": {
+    "close": "Đóng",
+    "copy": "Sao chép",
+    "cancel": "Hủy bỏ"
+  },
+  "transactionTypes": {
+    "swap": "Tráo đổi",
+    "send": "Gửi",
+    "receive": "Nhận được"
+  },
+  "csv": {
+    "headers": {
+      "type": "Kiểu",
+      "date": "Ngày",
+      "time": "Thời gian",
+      "amount": "Số lượng",
+      "targetToken": "Mã thông báo mục tiêu",
+      "address": "Địa chỉ"
+    }
+  },
+  "languageSelector": {
+    "label": "Ngôn ngữ:"
+  },
+  "transactionDetails": {
+    "title": "Chi tiết giao dịch",
+    "type": "Kiểu",
+    "date": "Ngày",
+    "amount": "Số lượng",
+    "targetToken": "Mã thông báo mục tiêu",
+    "recipient": "Người nhận",
+    "sender": "Người gửi",
+    "empty": "Không có sẵn"
+  },
+  "swapHistoryFilter": {
+    "filterByType": "Lọc theo loại giao dịch",
+    "sortNewest": "Mới nhất đầu tiên",
+    "sortOldest": "Lâu đời nhất đầu tiên",
+    "startDate": "Ngày bắt đầu",
+    "endDate": "Ngày kết thúc"
+  },
+  "addTokenButton": {
+    "label": "Thêm mã thông báo",
+    "selectToken": "Chọn một mã thông báo để thêm"
+  }
+}

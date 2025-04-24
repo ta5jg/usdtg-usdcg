@@ -1,0 +1,158 @@
+{
+  "wallet": {
+    "connected": "Wallet Connected",
+    "notConnected": "Wallet Not Connected",
+    "address": "Connected Wallet Address",
+    "notFound": "Web3 wallet not found.",
+    "addTokenButton": "+ Add Token",
+    "actions": "Wallet Actions"
+  },
+  "header": {
+    "title": "USDTz Wallet",
+    "description": "Secure and fast Web3 wallet experience",
+    "connectWallet": "Connect Wallet"
+  },
+  "actions": {
+    "send": "Send",
+    "receive": "Receive",
+    "swap": "Swap"
+  },
+  "tokenCard": {
+    "title": "Your Balance",
+    "symbol": "USDTz",
+    "pricePer": "1 {token} =",
+    "livePrice": "1 {token} =",
+    "totalValue": "Total Value:"
+  },
+  "sendModal": {
+    "sendTokens": "Send Tokens",
+    "header": "Send Tokens",
+    "recipientAddress": "Recipient Address",
+    "amount": "Amount",
+    "amountLabel": "Amount (USDTz):",
+    "amountPlaceholder": "Enter amount to send",
+    "recipientLabel": "Recipient Address",
+    "recipientPlaceholder": "Enter wallet address",
+    "cancel": "Cancel",
+    "confirm": "Confirm"
+  },
+  "receiveModal": {
+    "receiveTokens": "Receive Tokens",
+    "yourAddress": "Your Address",
+    "copy": "Copy Address"
+  },
+  "swapModal": {
+    "swapTokens": "Swap Tokens",
+    "fromToken": "From Token",
+    "toToken": "To Token",
+    "amount": "Amount",
+    "cancel": "Cancel",
+    "confirm": "Confirm"
+  },
+  "swapHistory": {
+    "title": "Transaction History",
+    "empty": "No swaps made yet.",
+    "clear": "Clear History",
+    "download": "Download XLSX",
+    "filterByType": "Filter by Type",
+    "allTypes": "All Types",
+    "send": "Send",
+    "receive": "Receive",
+    "swap": "Swap",
+    
+    "clearHistory": "Clear History",
+    "sortNewest": "Newest First",
+    "sortOldest": "Oldest First",
+    "all": "All",
+    "details": "Details",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "searchPlaceholder": "Search by amount, address, or date",
+    "summary": "Summary",
+    "totalSwaps": "Total Swap Count:",
+    "totalSends": "Total Send Count:",
+    "amountPrefix": "Amount",
+    "transactionFormat": {
+      "swap": "USDTz ⇄ {address}",
+      "send": "to {address}",
+      "receive": "from {address}",
+      "default": "Amount: {amount} USDTz"
+    },
+    "chartLabel": "Swap Amount",
+    "labelSwap": "Swap:",
+    "labelSend": "Send:",
+    "labelAmount": "Amount:",
+    "detailsLink": "Details",
+    "labelSwapPrefix": "Swap:",
+    "labelSendPrefix": "Send:",
+    "labelAmountPrefix": "Amount:",
+    "labelDate": "Date:",
+    "swapDirection": "{from} ⇄ {to}",
+    "amountLine": "Amount: {amount} USDTz",
+    "labelWallet": "Wallet",
+    "walletIndex": "Wallet {index}",
+    "walletSelect": "Select Wallet",
+    "walletAdd": "{t('addTokenButton.label')}",
+    "walletAdded": "Wallet Added",
+    "walletInvalid": "Invalid Wallet Address",
+    "walletExists": "Wallet already exists",
+    "transactionSwap": "Swap: +{amount} USDTz → {token}",
+    "transactionSend": "Send: -{amount} USDTz → {address}",
+    "transactionAmount": "Amount: {amount} USDTz"
+  },
+  "swap": {
+    "title": "Swap Tokens",
+    "amountLabel": "Amount (USDTz):",
+    "placeholder": "Enter amount to swap",
+    "targetTokenLabel": "Target Token:",
+    "confirm": "Confirm",
+    "close": "Close"
+  },
+  "receive": {
+    "title": "Receive Tokens"
+  },
+  "common": {
+    "close": "Close",
+    "copy": "Copy",
+    "cancel": "Cancel"
+  },
+  "transactionTypes": {
+    "swap": "Swap",
+    "send": "Send",
+    "receive": "Receive"
+  },
+  "csv": {
+    "headers": {
+      "type": "Type",
+      "date": "Date",
+      "time": "Time",
+      "amount": "Amount",
+      "targetToken": "Target Token",
+      "address": "Address"
+    }
+  },
+  "languageSelector": {
+    "label": "Language:"
+  },
+  "transactionDetails": {
+    "title": "Transaction Details",
+    "type": "Type",
+    "date": "Date",
+    "amount": "Amount",
+    "targetToken": "Target Token",
+    "recipient": "Recipient",
+    "sender": "Sender",
+    "empty": "Not available"
+  },
+  "swapHistoryFilter": {
+    "filterByType": "Filter by Transaction Type",
+    "sortNewest": "Newest First",
+    "sortOldest": "Oldest First",
+    "startDate": "Start Date",
+    "endDate": "End Date"
+  },
+  "addTokenButton": {
+    "label": "+ Add Token",
+    "selectToken": "Select a Token to Add"
+  }
+}

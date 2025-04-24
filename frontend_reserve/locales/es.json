@@ -1,0 +1,157 @@
+{
+  "wallet": {
+    "connected": "Billetera conectada",
+    "notConnected": "Billetera no conectada",
+    "address": "Dirección de billetera conectada",
+    "notFound": "Web3 Willet no encontrada.",
+    "addTokenButton": "Agregar token",
+    "actions": "Acciones de billetera"
+  },
+  "header": {
+    "title": "Billetera",
+    "description": "Experiencia de billetera Web3 segura y rápida",
+    "connectWallet": "Conectar billetera"
+  },
+  "actions": {
+    "send": "Enviar",
+    "receive": "Recibir",
+    "swap": "Intercambio"
+  },
+  "tokenCard": {
+    "title": "Tu equilibrio",
+    "symbol": "USDTz",
+    "pricePer": "1 {token} =",
+    "livePrice": "1 {token} =",
+    "totalValue": "Valor total:"
+  },
+  "sendModal": {
+    "sendTokens": "Enviar fichas",
+    "header": "Enviar fichas",
+    "recipientAddress": "Dirección del destinatario",
+    "amount": "Cantidad",
+    "amountLabel": "Cantidad (USDTZ):",
+    "amountPlaceholder": "Ingrese el monto para enviar",
+    "recipientLabel": "Dirección del destinatario",
+    "recipientPlaceholder": "Enter wallet address",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar"
+  },
+  "receiveModal": {
+    "receiveTokens": "Recibir tokens",
+    "yourAddress": "Tu dirección",
+    "copy": "Dirección de copia"
+  },
+  "swapModal": {
+    "swapTokens": "Tokens de intercambio",
+    "fromToken": "De token",
+    "toToken": "Para hacer",
+    "amount": "Cantidad",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar"
+  },
+  "swapHistory": {
+    "title": "Historial de transacciones",
+    "empty": "No hay intercambios realizados todavía.",
+    "clear": "Historia clara",
+    "download": "Descargar xlsx",
+    "filterByType": "Filtrar por tipo",
+    "allTypes": "Todo tipo",
+    "send": "Enviar",
+    "receive": "Recibir",
+    "swap": "Intercambio",
+    "clearHistory": "Historia clara",
+    "sortNewest": "El primero primero",
+    "sortOldest": "El más antiguo primero",
+    "all": "Todo",
+    "details": "Detalles",
+    "startDate": "Fecha de inicio",
+    "endDate": "Fecha final",
+    "searchPlaceholder": "Buscar por monto, dirección o fecha",
+    "summary": "Resumen",
+    "totalSwaps": "Recuento total de intercambio:",
+    "totalSends": "Total de envío de envío:",
+    "amountPrefix": "Cantidad:",
+    "transactionFormat": {
+      "swap": "+{cantidad} USDTZ → {dirección}",
+      "send": "-{cantidad} USDTZ → {dirección}",
+      "receive": "{cantidad} USDTZ ← {dirección}",
+      "default": "{cantidad} USDTZ"
+    },
+    "chartLabel": "Monto de intercambio",
+    "labelSwap": "Intercambio:",
+    "labelSend": "Enviar:",
+    "labelAmount": "Cantidad:",
+    "detailsLink": "Detalles",
+    "labelSwapPrefix": "Intercambio:",
+    "labelSendPrefix": "Enviar:",
+    "labelAmountPrefix": "Cantidad:",
+    "labelDate": "Fecha:",
+    "swapDirection": "{de} → {a}",
+    "amountLine": "Cantidad: {cantidad} USDTZ",
+    "labelWallet": "Billetera",
+    "walletIndex": "Billetera {índice}",
+    "walletSelect": "Seleccionar billetera",
+    "walletAdd": "+ Agregar billetera",
+    "walletAdded": "Billetera agregada",
+    "walletInvalid": "Dirección de billetera no válida",
+    "walletExists": "La billetera ya existe",
+    "transactionSwap": "Swap: +{cantidad} USDTZ → {Token}",
+    "transactionSend": "Enviar: -{cantidad} USDTZ → {dirección}",
+    "transactionAmount": "Cantidad: {cantidad} USDTZ"
+  },
+  "swap": {
+    "title": "Tokens de intercambio",
+    "amountLabel": "Cantidad (USDTZ):",
+    "placeholder": "Ingrese la cantidad para intercambiar",
+    "targetTokenLabel": "Token objetivo:",
+    "confirm": "Confirmar",
+    "close": "Cerca"
+  },
+  "receive": {
+    "title": "Recibir tokens"
+  },
+  "common": {
+    "close": "Cerca",
+    "copy": "Copiar",
+    "cancel": "Cancelar"
+  },
+  "transactionTypes": {
+    "swap": "Intercambio",
+    "send": "Enviar",
+    "receive": "Recibir"
+  },
+  "csv": {
+    "headers": {
+      "type": "Tipo",
+      "date": "Fecha",
+      "time": "Tiempo",
+      "amount": "Cantidad",
+      "targetToken": "Token objetivo",
+      "address": "DIRECCIÓN"
+    }
+  },
+  "languageSelector": {
+    "label": "Idioma:"
+  },
+  "transactionDetails": {
+    "title": "Detalles de la transacción",
+    "type": "Tipo",
+    "date": "Fecha",
+    "amount": "Cantidad",
+    "targetToken": "Token objetivo",
+    "recipient": "Beneficiario",
+    "sender": "Remitente",
+    "empty": "No disponible"
+  },
+  "swapHistoryFilter": {
+    "filterByType": "Filtrar por tipo de transacción",
+    "sortNewest": "El primero primero",
+    "sortOldest": "El más antiguo primero",
+    "startDate": "Fecha de inicio",
+    "endDate": "Fecha final"
+  },
+  "addTokenButton": {
+    "label": "Agregar token",
+    "selectToken": "Seleccione un token para agregar"
+  }
+}

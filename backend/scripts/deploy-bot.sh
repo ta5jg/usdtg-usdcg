@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "🚀 Starting USDTz Swap Bot (JustMoney)"
+echo "🚀 Starting USDTg Swap Bot (JustMoney)"
 cd "$(dirname "$0")"
 npm install
 
