@@ -29,7 +29,6 @@ contract MockFeedPrice is AggregatorV3Interface {
         return (0, _price, 0, 0, 0);
     }
 
-    // Dummy implementations
     function decimals() external pure override returns (uint8) {
         return 8;
     }

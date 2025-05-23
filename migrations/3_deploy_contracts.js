@@ -1,39 +1,32 @@
-const TronWeb = require("tronweb");
+const { TronWeb } = require("tronweb");
 require("dotenv").config();
 
 const USDTgTokenTRC20 = artifacts.require("USDTgTokenTRC20");
 
-function safeHex(label, value) {
-  try {
-    const hex = TronWeb.address.toHex(value.trim());
-    console.log(`✅ ${label} → ${hex}`);
-    return hex;
-  } catch (err) {
-    console.error(`❌ ${label} ERROR → ${value}`);
-    console.error("↪", err.message);
-    process.exit(1); // Anında çık
+module.exports = async function (deployer, network, accounts) {
+  console.log("Deploying USDTgTokenTRC20 to network:", network);
+
+  const FEE_WALLET = process.env.FEE_WALLET;
+  const USDT_ADDR = process.env.USDT_ADDR;
+  const USDC_ADDR = process.env.USDC_ADDR;
+  const JM_ROUTER = process.env.JM_ROUTER;
+  const ORACLE_ADDR = process.env.ORACLE_ADDR;
+  const MULTISIG_WALLET = process.env.MULTISIG_WALLET;
+
+  if (!FEE_WALLET || !USDT_ADDR || !USDC_ADDR || !JM_ROUTER || !ORACLE_ADDR || !MULTISIG_WALLET) {
+    console.error("❌ ERROR: Please make sure all required addresses are set in the .env file.");
+    process.exit(1);
   }
-}
-
-module.exports = async function (deployer) {
-  const name = "USDTg";
-  const symbol = "USDTg";
-
-  const feeWallet = safeHex("FEE_WALLET", process.env.FEE_WALLET);
-  const usdtAddress = safeHex("USDT_ADDR", process.env.USDT_ADDR);
-  const usdcAddress = safeHex("USDC_ADDR", process.env.USDC_ADDR);
-  const oracleAddress = safeHex("ORACLE_ADDR", process.env.ORACLE_ADDR);
-
-  console.log("🚀 Deploying TetherGround USD with:");
-  console.log({ feeWallet, usdtAddress, usdcAddress, oracleAddress });
 
   await deployer.deploy(
-    USDTgTokenTRC20,
-    name,
-    symbol,
-    feeWallet,
-    usdtAddress,
-    usdcAddress,
-    oracleAddress
+    USDTgToken,
+    FEE_WALLET,
+    USDT_ADDR,
+    USDC_ADDR,
+    JM_ROUTER,
+    ORACLE_ADDR,
+    MULTISIG_WALLET
   );
+
+  console.log("✅ USDTgTokenTRC20 deployed successfully!");
 };

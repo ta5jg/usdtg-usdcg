@@ -12,9 +12,16 @@ module.exports = {
     },
     shasta: {
       privateKey: process.env.PRIVATE_KEY || '',
-      consume_user_resource_percent: 30,
+      consume_user_resource_percent: 100,
       fee_limit: 1_000_000_000,
       fullHost: "https://api.shasta.trongrid.io",
+      network_id: "*"
+    },
+    nile: {
+      privateKey: process.env.PRIVATE_KEY || '',
+      consume_user_resource_percent: 100,
+      fee_limit: 1_000_000_000,
+      fullHost: "https://api.nileex.io",
       network_id: "*"
     },
   },

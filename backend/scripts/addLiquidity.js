@@ -12,8 +12,8 @@ const tronWeb = new TronWeb({
 async function addLiquidity() {
   const router = await tronWeb.contract().at(ROUTER_CONTRACT);
 
-  const amountADesired = tronWeb.toSun("50"); // 5 USDTg
-  const amountBDesired = tronWeb.toSun("220"); // 5 USDT
+  const amountADesired = tronWeb.toSun("10"); // 5 USDTg
+  const amountBDesired = tronWeb.toSun("38"); // 38 TRX
   const deadline = Math.floor(Date.now() / 1000) + 600;
 
   const tx = await router
